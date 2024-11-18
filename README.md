@@ -1,14 +1,14 @@
 <h1 style="text-align: center; font-size: 4em;">
   🏓⚽️🏃‍♂️REVERIE
 </h1>
-REVEIRE is a deep reinforcement learning-ensembled VR systems to provide personalized sports interventions for adolescents with excess body eight.
+REVERIE is a deep reinforcement learning-ensembled VR system to provide personalized sports interventions for adolescents with excess body weight.
 
 # Hardware
 ### Equipment list
 * Oculus Quest 2 (Oculus Quest 2, Meta, USA)
 * Table tennis bracket 
 * 3D printed soccer bracket
-* Heart rate sensor (Polar Verity Sense, Polar Electro Oy, Kempele, Finland)
+* Heart rate monitor (Polar Verity Sense, Polar Electro Oy, Kempele, Finland)
 * 3D accelerometer (Actigraph wGT3x-BT, Actigraph, Pensacola, USA)
 <div style="text-align: center;">
 <img src="hardware/figure/hardware.png" >
@@ -49,10 +49,10 @@ REVEIRE is a deep reinforcement learning-ensembled VR systems to provide persona
 ## Setup
 This software is developed and packaged using Unity3D (2020.3.28) compatible with a Windows10 system. The deep learning related methods are developed using Python 3.9 and Pytorch 1.11 and are trained on Ubuntu 20.04 with NVIDIA GeForce RTX 3090. It necessitates 256GB of RAM and 20 TB of disk storage.
 
-# Install
+## Install
 1. Clone this repositoty and navigate to REVERIE folder.
 ```bash
-git clone https://github.com/REVERIE/.git
+git clone https://anonymous.4open.science/r/REVERIE-Sports-474C.git
 cd REVERIE
 ```
 2. Install Package.
@@ -69,7 +69,7 @@ pip install -e .
 ### Setup
 Please download the Unity3D (2020.3.28 or higher version) from [Unity](https://unity.com/download).
 ### Install
-1. Please donwlad the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) which is too large to upload to Github. 
+1. Please donwload the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) which is too large to upload to Github. 
 2. Please unzip the `Table tennis.rar`.
 3. Navigate to `Table tennis` or `Soccer` foler.
 4. The `REVERIE Soccer` is in folder `REVERIE-Environment/Soccer`
@@ -96,12 +96,12 @@ Please download the Unity3D (2020.3.28 or higher version) from [Unity](https://u
 ```bash
 cd REVERIE-Rendering
 ```
-2. Activate virual environment.
+2. Activate virtual environment.
 ```bash
 conda activate REVERIE
 ```
 ### Pre-trained model weights 
-Please follow the [official document](https://mmdetection.readthedocs.io/en/latest/get_started.html) to install mmdection. 
+Please follow the [official document](https://mmdetection.readthedocs.io/en/latest/get_started.html) to install mmdetection. 
 Then, please download the pre-trained model weights [here](https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_tiny_8xb32-300e_coco/rtmdet_tiny_8xb32-300e_coco_20220902_112414-78e30dcc.pth).
 You can test the RTMDet-Ins:
 ```Shell
@@ -172,7 +172,7 @@ cd REVERIE-Agent
 conda activate REVERIE
 ```
 ### Build training environment
-1. Install [Unity ML-Agents Toolkit](https://unity-technologies.github.io/ml-agents/) following the this [page](https://unity-technologies.github.io/ml-agents/Installation/).
+1. Install [Unity ML-Agents Toolkit](https://unity-technologies.github.io/ml-agents/) following this [page](https://unity-technologies.github.io/ml-agents/Installation/).
 2. Click the environment in REVERIE-Environment Module and set:
 ```bash
 File --> Build Settings
@@ -187,14 +187,14 @@ Player Settings
 ```
 5. Choose Run In BackGround:
 ```bash
-Player --> Run In Back Ground
+Player --> Run In Background
 ```
 6. Click Build.
 7. Save the environment under `envs` folder.
 ### Run
 1. The code is based on a publicly available github repository [LOGO](https://github.com/DesikRengarajan/LOGO) and [PyTorch-RL](https://github.com/Khrylx/PyTorch-RL).
-2. Copy the path of the envirment `envs/XXXX.exe` into `env_path` in `run_RC.py`.
-3. Train the REVERIE Coach for mastering different sport guidance instructions using the following script:
+2. Copy the path of the environment `envs/XXXX.exe` into `env_path` in `run_RC.py`.
+3. Train the REVERIE Coach for mastering different sports guidance instructions using the following script:
 ```bash
 python python run_RC.py
 ```
@@ -204,7 +204,7 @@ python python run_RC.py
 ```bash
 bilateral acromion, perimeter of the head, bilateral humeral condyles (medial and lateral), bilateral ulnar condyles, bilateral radial condyles,  bilateral third metacarpophalangeal joint capsules, manubrium of the sternum, body of the sternum, first vertebra, inferior border of bilateral scapulae, tenth vertebra, bilateral iliac crests (left and right), bilateral anterior superior iliac spines (left and right), bilateral greater trochanters of the femur (left and right), bilateral distal femur (medial and lateral condyles), bilateral proximal tibia (medial and lateral condyles), bilateral malleoli (medial and lateral), and the distal ends of the first and fifth metatarsal bones (left and right)
 ```
-2. They also weore the REVEIRE Hardware to perform.
+2. They also wore the REVERIE Hardware.
 3. All motions were performed under the guidance of the REVERIE system and were collected through Avatar Pro (Avatar Pro 2.0, Chingmu, China).
 
 <div style="text-align: center;">
