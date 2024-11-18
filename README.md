@@ -1,7 +1,9 @@
-# 🏓⚽️🏃‍♂️REVERIE
+<h1 style="text-align: center; font-size: 4em;">
+  🏓⚽️🏃‍♂️REVERIE
+</h1>
 REVEIRE is a deep reinforcement learning-ensembled VR systems to provide personalized sports interventions for adolescents with excess body eight.
 
-## Hardware
+# Hardware
 ### Equipment list
 * Oculus Quest 2 (Oculus Quest 2, Meta, USA)
 * Table tennis bracket 
@@ -45,7 +47,7 @@ REVEIRE is a deep reinforcement learning-ensembled VR systems to provide persona
 # Software
 
 ## Setup
-This software is developed and packaged using Unity3D (2020.3.28) compatible with a Windows10 system. The deep learning related methods are developed using Python 3.9 and Pytorch 1.13 and are trained on Ubuntu 20.04 with NVIDIA GeForce RTX 3090. It necessitates 256GB of RAM and 20 TB of disk storage.
+This software is developed and packaged using Unity3D (2020.3.28) compatible with a Windows10 system. The deep learning related methods are developed using Python 3.9 and Pytorch 1.11 and are trained on Ubuntu 20.04 with NVIDIA GeForce RTX 3090. It necessitates 256GB of RAM and 20 TB of disk storage.
 
 # Install
 1. Clone this repositoty and navigate to REVERIE folder.
@@ -67,10 +69,11 @@ pip install -e .
 ### Setup
 Please download the Unity3D (2020.3.28 or higher version) from [Unity](https://unity.com/download).
 ### Install
-1. Please donwlad the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) and `Soccer.rar`.
-2. Please unzip the `Table tennis.rar` and `Soccer.rar`.
+1. Please donwlad the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) which is too large to upload to Github. 
+2. Please unzip the `Table tennis.rar`.
 3. Navigate to `Table tennis` or `Soccer` foler.
-4. Open and operate the software using `Unity3D`.
+4. The `REVERIE Soccer` is in folder `REVERIE-Environment/Soccer`
+4. Open and operate these softwares using `Unity3D`.
 
 ### Build APK
 ##### Setup
