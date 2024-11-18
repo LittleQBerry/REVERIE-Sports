@@ -51,12 +51,15 @@ This software is developed and packaged using Unity3D (2020.3.28) compatible wit
 
 ## Install
 1. Clone this repository and navigate to REVERIE folder.
+Note: For `https://anonymous.4open.science/`, download this [repo](https://anonymous.4open.science/r/REVERIE-Sports-474C) and unzip it as `REVERIE-Sports`.
+For `Github`, download this repo using `git`.
 ```bash
-git clone https://anonymous.4open.science/r/REVERIE-Sports-474C.git
-cd REVERIE
+git clone https://github.com/XX-XX/REVERIE-Sports
+
 ```
 2. Install Package.
 ```bash
+cd REVERIE-Sports
 conda create -n REVERIE python=3.9 -y
 conda activate REVERIE
 conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=10.2 -c pytorch
@@ -216,7 +219,7 @@ bilateral acromion, perimeter of the head, bilateral humeral condyles (medial an
 </div>
 
 # Demo of REVERIE sports
-Here is the demo video of the REVERIE system.
+Here are the demo videos of the REVERIE system.
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <img src="Demo/REVERIE-tt.gif" style="max-width: 48%; height: auto;">
