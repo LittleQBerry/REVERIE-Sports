@@ -50,7 +50,7 @@ REVERIE is a deep reinforcement learning-ensembled VR system to provide personal
 This software is developed and packaged using Unity3D (2020.3.28) compatible with a Windows10 system. The deep learning related methods are developed using Python 3.9 and Pytorch 1.11 and are trained on Ubuntu 20.04 with NVIDIA GeForce RTX 3090. It necessitates 256GB of RAM and 20 TB of disk storage.
 
 ## Install
-1. Clone this repositoty and navigate to REVERIE folder.
+1. Clone this repository and navigate to REVERIE folder.
 ```bash
 git clone https://anonymous.4open.science/r/REVERIE-Sports-474C.git
 cd REVERIE
@@ -69,16 +69,16 @@ pip install -e .
 ### Setup
 Please download the Unity3D (2020.3.28 or higher version) from [Unity](https://unity.com/download).
 ### Install
-1. Please donwload the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) which is too large to upload to Github. 
+1. Please download the [`Table tennis.rar`](https://drive.google.com/file/d/11AxyHYg9BsmSIzXD497iq5mOpfwRit-8/view?usp=sharing) which is too large to upload to Github. 
 2. Please unzip the `Table tennis.rar`.
-3. Navigate to `Table tennis` or `Soccer` foler.
+3. Navigate to `Table tennis` or `Soccer` folder.
 4. The `REVERIE Soccer` is in folder `REVERIE-Environment/Soccer`
-4. Open and operate these softwares using `Unity3D`.
+4. Open and operate the software using `Unity3D`.
 
 ### Build APK
 ##### Setup
-* Oculus Quest2 is connected to the PC
-* Oculus Quest2 is in developer mode
+* Oculus Quest 2 is connected to the PC
+* Oculus Quest 2 is in developer mode
 * [adb](https://developer.android.com/tools/adb) is installed
 
 #### Build
@@ -105,7 +105,7 @@ Please follow the [official document](https://mmdetection.readthedocs.io/en/late
 Then, please download the pre-trained model weights [here](https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_tiny_8xb32-300e_coco/rtmdet_tiny_8xb32-300e_coco_20220902_112414-78e30dcc.pth).
 You can test the RTMDet-Ins:
 ```Shell
-cd mmdectection
+cd mmdetection
 ```
 ```bash
 python tools/test.py configs/rtmdet/rtmdet-ins_tiny_8xb32-300e_coco.py rtmdet_tiny_8xb32-300e_coco_20220902_112414-78e30dcc.pth --out test-results 
@@ -135,7 +135,7 @@ METAINFO = {
          (0, 60, 100), (0, 80, 100), (0, 0, 70)]
     }
 ```
-Then, rebuild the whole project to update the classname:
+Then, rebuild the whole project to update the class name:
 ```shell
 python setpup.py install build
 ```
@@ -185,7 +185,7 @@ Server Build
 ```bash
 Player Settings
 ```
-5. Choose Run In BackGround:
+5. Choose Run In Background:
 ```bash
 Player --> Run In Background
 ```
@@ -196,7 +196,7 @@ Player --> Run In Background
 2. Copy the path of the environment `envs/XXXX.exe` into `env_path` in `run_RC.py`.
 3. Train the REVERIE Coach for mastering different sports guidance instructions using the following script:
 ```bash
-python python run_RC.py
+python run_RC.py
 ```
 
 # Motion capture
