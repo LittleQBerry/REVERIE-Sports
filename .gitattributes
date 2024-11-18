@@ -1,1 +1,4 @@
 REVERIE-Environment/Soccer/Assets/Game/AliPuhuiFont/Alibaba-PuHuiTi-Bold.asset filter=lfs diff=lfs merge=lfs -text
+REVERIE-Environment/Soccer/Assets/Game/Font/Alibaba-PuHuiTi-Bold.asset filter=lfs diff=lfs merge=lfs -text
+REVERIE-Environment/Soccer/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+REVERIE-Environment/Soccer/Library/Artifacts/63/63e0ce415dc03856266ed22d0e00aa3d filter=lfs diff=lfs merge=lfs -text
