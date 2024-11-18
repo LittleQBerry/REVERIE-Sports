@@ -1,0 +1,2 @@
+D:\HTCFootball_1_0511\obj\Debug\HurricaneVR.Editor.csproj.AssemblyReference.cache
+D:\HTCFootball_1_0511\obj\Debug\HurricaneVR.Editor.csproj.CoreCompileInputs.cache

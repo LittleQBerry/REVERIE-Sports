@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5345888059162068945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5345888059162068959}
+  - component: {fileID: 5345888059162068958}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5345888059162068959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345888059162068945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.0808992, y: -0.070435524, z: 0.6156312}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5345888059162068958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5345888059162068945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72664cd5d4f25f643a2d5e96e4a6502a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAIScene: 0
+  m_curGameType: 0
+  m_curTrainingType: 0
+  m_gameState: 0
+  trainingDatas:
+  - trainingType: 2
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 9cd934cd276e76944b1230dab3758d4b, type: 2}
+    sendBallTime: 1.8
+    level: 1
+    doubleNumber: 0
+  - trainingType: 1
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 20ad08ea95513d3419ad142da2016026, type: 2}
+    sendBallTime: 1.8
+    level: 1
+    doubleNumber: 0
+  - trainingType: 3
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 4695a0af943566047a5d4606e88aa56a, type: 2}
+    sendBallTime: 1.8
+    level: 1
+    doubleNumber: 0
+  - trainingType: 2
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 35c9dd0129f3baa4daaf4fee2fa7444f, type: 2}
+    sendBallTime: 1.5
+    level: 2
+    doubleNumber: 0
+  - trainingType: 1
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 634c6a192905ec44c9b20c699f006c91, type: 2}
+    sendBallTime: 1.5
+    level: 2
+    doubleNumber: 0
+  - trainingType: 3
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: a4a24bdcc361f5341b52cdcc5ee88136, type: 2}
+    sendBallTime: 1.5
+    level: 2
+    doubleNumber: 0
+  - trainingType: 2
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 55012e4372293a84c810386c2f3895f1, type: 2}
+    sendBallTime: 1.3
+    level: 3
+    doubleNumber: 0
+  - trainingType: 1
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: f60e2e940bdae674a9be896f07059303, type: 2}
+    sendBallTime: 1.3
+    level: 3
+    doubleNumber: 0
+  - trainingType: 4
+    ballNumber: 50
+    targetScore: 25
+    BallLins: {fileID: 11400000, guid: 4478f9ab8800409418096ff6483ea479, type: 2}
+    sendBallTime: 1.3
+    level: 3
+    doubleNumber: 0
+  PingPongNewAI: {fileID: 0}
+  player: {fileID: 0}
+  m_curBall: {fileID: 0}
+  m_ProductionTable: {fileID: 0}
+  grabbaleBall: {fileID: 0}
+  m_pauseGame: 0
+  m_curBallSpeed: 0
+  ballHighSpeed: 4
+  ballLauncher: {fileID: 0}
+  targetScore: 0
+  m_curTrainingScore: 0
+  m_curBallNumber: 0
+  r_grabber: {fileID: 0}
+  grabbables: []
+  testTrainingBallData: 0
+  countDownTime: 3
+  m_curBallState: 2
+  playerScores: 
+  AIScores: 
+  playerServe: 1
+  m_serveCount: 0

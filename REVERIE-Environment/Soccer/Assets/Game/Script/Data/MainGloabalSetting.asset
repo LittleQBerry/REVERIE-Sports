@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 923fbb19b073f8841830ebaee882d4c5, type: 3}
+  m_Name: MainGloabalSetting
+  m_EditorClassIdentifier: 
+  forwardFootOffset: 0
+  footBounceChangeThreshold: 6
+  ballAttrs:
+  - bounce: 0.1
+    mass: 0.3
+    drag: 0.1
+    angelDrag: 0.05
+    gameType: 0
+    hasBigFoot: 0
+    combineMode: 2
+  - bounce: 0.1
+    mass: 0.5
+    drag: 0.15
+    angelDrag: 0.05
+    gameType: 1
+    hasBigFoot: 0
+    combineMode: 2
+  - bounce: 0.8
+    mass: 0.12
+    drag: 0.8
+    angelDrag: 0.05
+    gameType: 2
+    hasBigFoot: 0
+    combineMode: 3
+  - bounce: 0.02
+    mass: 4
+    drag: 0.95
+    angelDrag: 0.2
+    gameType: 3
+    hasBigFoot: 0
+    combineMode: 2
+  - bounce: 0.1
+    mass: 0.4
+    drag: 0.15
+    angelDrag: 0.05
+    gameType: 4
+    hasBigFoot: 0
+    combineMode: 2
+  ballLifeTimes:
+  - gameType: 0
+    level: 1
+    lifeTime: 6
+  - gameType: 0
+    level: 2
+    lifeTime: 3
+  - gameType: 0
+    level: 3
+    lifeTime: 6
+  - gameType: 1
+    level: 1
+    lifeTime: 200
+  - gameType: 1
+    level: 2
+    lifeTime: 20
+  - gameType: 1
+    level: 3
+    lifeTime: 20
+  - gameType: 2
+    level: 1
+    lifeTime: 5
+  - gameType: 2
+    level: 2
+    lifeTime: 5
+  - gameType: 2
+    level: 3
+    lifeTime: 5
+  - gameType: 3
+    level: 1
+    lifeTime: 80
+  - gameType: 3
+    level: 2
+    lifeTime: 70
+  - gameType: 3
+    level: 3
+    lifeTime: 60
+  footBounceseMode: 1
+  angleA_min: 120
+  angleA_max: 160
+  angleB_min: 120
+  angleB_max: 160
+  bigFootPowerTreshold: 1.5
+  bigFootOffset: 1.5
+  headForceOffset: 3
+  gameLevel: 1

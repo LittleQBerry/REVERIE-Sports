@@ -1,0 +1,72 @@
+2.8.7-2.8.8
+
+Fixed hands ignoring collision with each other on the tech demo rig.
+Fixed knuckles controllers grip hand animation when using OpenXR.
+Fixed physics door not checking if second handle exists.
+Fixed socketable throwing null error if instantiated and socketed in the same frame.
+Fixed Camera Rig ignoring debug setting for up/down arrow if only the new input system was enabled.
+
+Removed RemainsKinematic from HVRGrabbable and snapshotting/restoring of IsKinematic during the grab procedure. Users should use
+	grabbed and released events for this from now on for full control of this field without framework interference.
+	
+Auto Posing in editor mode randomly has issues when colliders are attached to a rigidbody, the hand poser editor will warn users of this now.
+
+2.8.6
+
+Fixed wheel collider line of sight check and dynamic pose
+Fixed bug where force pull would not re-enable collision with the hand if dropped before it reached the hand.
+Fixed IsBeingForcedGrabbed not being set to false on a successfull force pull to the hand.
+Fixed HVRPhysicsDoor joint anchor not being set to zero sometimes
+Fixed null coroutine error on HVRGrabbable if object was disabled prior to being released.
+
+HVRPhysicsDoor upgraded to allow two door handles. Example scene swinging door updated with two separate handles. Web Docs updated.
+Custom Hand Setup Wizard completed with tutorial in the web docs.
+Virtualized HVRUIPointer methods.
+Hand Posing now only works in scene view, prefab mode has issues when posing, a warning will display to alert the user.
+Added new demo scene showing how to use hand animation parameters - 'scene_hand_squeeze'
+Added commentary and tooltips to several helper components that were missing them.
+
+2.8.5
+
+Fixed an issue where socketed objects would scale differently based on it's rotation prior to being socketed due to AABB sizing.
+Fixed trigger colliders being deleted on the ClonedHandModel process.
+CloneHandModel defaulted to false on included hand prefabs as ParentHandModel is defaulted to false on new grabbable objects.
+
+2.8.4
+
+Fixed an issue with the version update check logic that was refreshing the asset database after compiles.
+
+Distance Grab Updates:
+	Force Pull logic re-worked using kinematics that takes into account mass, gravity, and hand velocity.
+	Force Pull Settings updated with Max Acceleration Force, Max Speed, Damping speed parameters to control behaviour.
+	
+Hand Grab "Pull" sequence is improved and should be smoother, especially after a distance grab is executed.
+
+HVRGrabbable : Added 'BreakDistanceSource' [NoDistanceCheck, Hand, Controller] to control the distance check against the object, or to prevent dropping from distance altogether.
+
+2.8.3.1
+
+OpenXR - added package check and update helper if 1.3 and higher version isn't detected.
+VRIK Setup - fix IK solve at setup end when avatar spine isn't using normal forward / right vectors.
+Adjust force grab default max force (was too strong for hexabody)
+
+
+2.8.3
+
+Fixed GC alloc in the socket detection
+HVRControllerOffset will smoothly move / rotate to the grab points offset value instead of immediately snapping.
+Tweaked force grabber to bring the object closer to the hand before the hand takes over.
+Updated Hand Setup Wizard instructions to be more clear.
+
+2.8.2
+
+HurricaneVR extra dll's have been collapsed into a single final dll 'HurricaneVR.Framework'
+
+Fix HVRStabber when the tip / base transforms aren't directly a child of the stabber
+Fix HVRTeleporter capsule overlap check math that was failing at small capsule sizes.
+Fix grabbing when the hand was set to toggle grab mode but the grabbable was set to Active mode.
+Improved post teleport hand / held object positioning if the user rotated the player to a new direction.
+HVRSocket - scale grabbable defaulted to false
+Added basic EmeraldAI (v3) integration scene
+HVRSettings - new DisableHaptics toggle 
+HVRPhysicsDial - fixed anchor to start at 0,0,0

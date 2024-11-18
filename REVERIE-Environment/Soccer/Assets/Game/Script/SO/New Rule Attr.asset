@@ -1,0 +1,605 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dd423a0f5fe06c489dfd343c037a042, type: 3}
+  m_Name: New Rule Attr
+  m_EditorClassIdentifier: 
+  rules:
+  - ruleID: 0
+    ruleFor: 0
+    ruleName: "\u5DE6\u811A\u672A\u7A0D\u524D"
+    ruleResult: "\u5DE6\u811A\u76F8\u5BF9\u53F3\u811A\u524D\u540E\u7684\u8DDD\u79BB\u5DEE\u4E3A{0}cm\uFF0C\u5E94\u5728{1}cm-{2}cm\u533A\u95F4\u5185\u3002"
+    ruleType: 1
+    minValue: 0
+    maxValue: 0.2
+    isActive: 1
+    ruleDesc: "\u5224\u65AD\uFF1A\u4E24\u817F\u5206\u5F00\u4E0E\u80A9\u540C\u5BBD\uFF08\u4E0D\u5C0F\u4E8E20cm,\u4E0D\u5927\u4E8E70cm\uFF09\uFF0C\u53F3\u6487\u5B50\u5DE6\u811A\u7A0D\u5FAE\u76F8\u5BF9\u53F3\u811A\u5411\u524D0-20cm"
+    stage: 2
+  - ruleID: 1
+    ruleFor: 4
+    ruleName: "\u53CC\u811A\u6CA1\u6709\u4E0E\u80A9\u540C\u5BBD"
+    ruleResult: "\u53CC\u811A\u7684\u8DDD\u79BB\u4E3A{0}cm,\u53CC\u811A\u8DDD\u79BB\u5E94\u8BE5\u5728{1}cm-{2}cm\u4E4B\u95F4"
+    ruleType: 1
+    minValue: 0.2
+    maxValue: 0.7
+    isActive: 0
+    ruleDesc: "\u53CC\u811A\u8DDD\u79BB\u5927\u4E8E20cm\uFF0C\u5C0F\u4E8E70cm\u3002\u4EE5\u8EAB\u4F53\u7684\u65B9\u5411\u4F5C\u4E3A\u57FA\u51C6\uFF0C\u83B7\u53D6\u7403\u53F0\u9762\u5411\u7528\u6237\u5782\u76F4\u9762\uFF0C\u5224\u65AD\u5DE6\u811A\u4E0E\u5E73\u9762\u7684\u8DDD\u79BB\u5927\u4E8E\u53F3\u811A\u4E0E\u5E73\u9762\u7684\u8DDD\u79BB0-20cm\u4E4B\u95F4\u3002"
+    stage: 2
+  - ruleID: 2
+    ruleFor: 4
+    ruleName: "\u819D\u5173\u8282\u672A\u5C48\u66F2"
+    ruleResult: "\u5DE6\u819D\u76D6\u5F2F\u66F2\u5EA6\u6570\u4E3A{0}\uFF0C\u53F3\u819D\u76D6\u5F2F\u66F2\u5EA6\u6570\u4E3A{1}\u3002\u819D\u76D6\u5F2F\u66F2\u7684\u8303\u56F4\u4E3A{2}-{3}\u3002"
+    ruleType: 2
+    minValue: 100
+    maxValue: 170
+    isActive: 0
+    ruleDesc: 
+    stage: 2
+  - ruleID: 3
+    ruleFor: 4
+    ruleName: "\u8EAF\u5E72\u672A\u524D\u503E"
+    ruleResult: "\u8EAF\u5E72\u4E0E\u5411\u4E0A\u65B9\u5411\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u6B63\u786E\u89D2\u5EA6\u8303\u56F4\u4E3A{1}-{2}"
+    ruleType: 0
+    minValue: 5
+    maxValue: 30
+    isActive: 0
+    ruleDesc: 
+    stage: 2
+  - ruleID: 4
+    ruleFor: 0
+    ruleName: "\u5411\u540E\u5F15\u62CD\u5E45\u5EA6\u8FC7\u5C0F"
+    ruleResult: "\u5F15\u62CD\u9636\u6BB5\u5230\u51FB\u7403\u540E\uFF0C\u9ACB\u5173\u8282\u65CB\u8F6C\u5EA6\u6570\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 15
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 5
+    ruleFor: 0
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u624B\u8098\u62AC\u8FC7\u9AD8"
+    ruleResult: "\u624B\u8098\u62AC\u8D77\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 75
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 6
+    ruleFor: 0
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u62CD\u9762\u672A\u524D\u503E"
+    ruleResult: "\u62CD\u9762\u524D\u503E\u7684\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u524D\u503E\u7684\u89D2\u5EA6\u5E94\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 70
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 7
+    ruleFor: 0
+    ruleName: "\u51FB\u7403\u70B9\u672A\u5728\u8EAB\u4F53\u53F3\u524D\u65B9"
+    ruleResult: "\u51FB\u7403\u70B9\u7684\u5F53\u524D\u533A\u57DF\u4E3A\u8EAB\u4F53\u7684{0}\u3002\u4E14\u51FB\u7403\u70B9\u4E0D\u80FD\u8FC7\u8FDC\uFF0C\u4E0E\u8EAB\u4F53\u7684\u89D2\u5EA6\u4E3A{1}\uFF0C\u6B63\u786E\u7684\u89D2\u5EA6\u8303\u56F4\u5E94\u5728{2}-{3}\u4E4B\u95F4\u3002"
+    ruleType: 2
+    minValue: 0
+    maxValue: 30
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 8
+    ruleFor: 0
+    ruleName: "\u51FB\u7403\u524D\uFF0C\u624B\u8155\u672A\u4FDD\u6301\u5411\u5916\u4F38\u5C55"
+    ruleResult: "\u624B\u4F38\u76F4\u7684\u6307\u5C16\u65B9\u5411\u4E0E\u5C0F\u81C2\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 160
+    maxValue: 180
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 9
+    ruleFor: 0
+    ruleName: "\u975E\u6301\u62CD\u624B\u672A\u7F6E\u4E8E\u8179\u524D"
+    ruleResult: '{0}'
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 2
+  - ruleID: 10
+    ruleFor: 1
+    ruleName: "\u53F3\u811A\u672A\u7A0D\u524D"
+    ruleResult: "\u53F3\u811A\u76F8\u5BF9\u5DE6\u811A\u524D\u540E\u7684\u8DDD\u79BB\u5DEE\u4E3A{0}cm\uFF0C\u5E94\u5728{1}cm-{2}cm\u533A\u95F4\u5185\u3002"
+    ruleType: 1
+    minValue: 0
+    maxValue: 0.2
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 11
+    ruleFor: 1
+    ruleName: "\u53F3\u811A\u672A\u7A0D\u524D\u6216\u53CC\u811A\u6CA1\u6709\u4E0E\u80A9\u540C\u5BBD"
+    ruleResult: "\u8DDD\u79BB20\u523070"
+    ruleType: 1
+    minValue: 0.2
+    maxValue: 0.7
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 12
+    ruleFor: 1
+    ruleName: "\u5F15\u62CD\u65F6\uFF0C\u7403\u62CD\u672A\u5F15\u81F3\u8179\u524D"
+    ruleResult: '{0}'
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 13
+    ruleFor: 1
+    ruleName: "\u51FB\u7403\u524D\u624B\u8155\u672A\u5411\u5185\u5C48\u66F2"
+    ruleResult: "\u5F15\u62CD\u9636\u6BB5\uFF0C\u62CD\u9762\u5E94\u4E0E\u7403\u53F0\u5E95\u7EBF\u5E73\u884C\uFF0C\u76EE\u524D\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: -15
+    maxValue: 15
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 14
+    ruleFor: 1
+    ruleName: "\u51FB\u7403\u70B9\u672A\u5728\u8EAB\u4F53\u6B63\u524D\u65B9"
+    ruleResult: '{0}'
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 15
+    ruleFor: 1
+    ruleName: "\u51FB\u7403\u540E\uFF0C\u672A\u5411\u53F3\u524D\u65B9\u6325\u62CD"
+    ruleResult: "\u6325\u62CD\u65B9\u5411\u4E0E\u6B63\u524D\u65B9\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u5E94\u5728{1}-{2}\u4E4B\u95F4\uFF0C\u8D1F\u503C\u4E3A\u5DE6\u524D\u65B9\u3002"
+    ruleType: 0
+    minValue: 10
+    maxValue: 40
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 16
+    ruleFor: 1
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u62CD\u9762\u672A\u524D\u503E"
+    ruleResult: "\u62CD\u9762\u524D\u503E\u7684\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u524D\u503E\u7684\u89D2\u5EA6\u5E94\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 60
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 17
+    ruleFor: 5
+    ruleName: "\u629B\u7403\u65F6\uFF0C\u6301\u7403\u624B\u4F4E\u4E8E\u7403\u53F0\u6216\u672A\u7F6E\u4E8E\u7403\u53F0\u5916\u4FA7"
+    ruleResult: "\u629B\u7403\u65F6\uFF0C\u6301\u7403\u9AD8\u4E8E\u7403\u53F0\u53F0\u9762{0}cm\uFF0C\u6B63\u503C\u4E3A\u9AD8\u4E8E\u7403\u53F0\uFF0C\u8D1F\u503C\u4E3A\u4F4E\u4E8E\u7403\u53F0\u3002\u8DDD\u79BB\u79BB\u7403\u53F0\u8FB9\u7F18{1}cm\uFF0C\u6B63\u503C\u4E3A\u5728\u7403\u53F0\u5916\u4FA7\uFF0C\u8D1F\u503C\u4E3A\u5728\u7403\u53F0\u5185\u4FA7\u3002"
+    ruleType: 2
+    minValue: 0.76
+    maxValue: -1.37
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 18
+    ruleFor: 5
+    ruleName: "\u51FB\u7403\u524D\uFF0C\u624B\u8155\u672A\u4FDD\u6301\u5411\u5916\u4F38\u5C55"
+    ruleResult: 
+    ruleType: 0
+    minValue: 160
+    maxValue: 180
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 19
+    ruleFor: 5
+    ruleName: "\u629B\u7403\u89D2\u5EA6\u4E0D\u6B63\u786E"
+    ruleResult: "\u629B\u7403\u65B9\u5411\u4E0E\u5411\u4E0A\u65B9\u5411\u7684\u5939\u89D2\u89D2\u5EA6\u4E3A{0}\uFF0C\u89D2\u5EA6\u5E94\u8BE5\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 0
+    maxValue: 20
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 20
+    ruleFor: 5
+    ruleName: "\u629B\u7403\u9AD8\u5EA6\u4E0D\u6B63\u786E"
+    ruleResult: "\u629B\u7403\u5411\u4E0A\u7684\u8DDD\u79BB\u4E3A{0}cm,\u5E94\u8BE5\u4E0D\u5C0F\u4E8E{1}cm\u3002"
+    ruleType: 1
+    minValue: 0.16
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 21
+    ruleFor: 5
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u62CD\u9762\u672A\u524D\u503E"
+    ruleResult: 
+    ruleType: 0
+    minValue: 70
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 22
+    ruleFor: 5
+    ruleName: "\u5411\u540E\u5F15\u62CD\u5E45\u5EA6\u8FC7\u5C0F"
+    ruleResult: 
+    ruleType: 0
+    minValue: 15
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 23
+    ruleFor: 5
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u624B\u8098\u62AC\u8FC7\u9AD8"
+    ruleResult: 
+    ruleType: 0
+    minValue: 0
+    maxValue: 75
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 24
+    ruleFor: 5
+    ruleName: "\u672A\u4F7F\u7528\u6B63\u624B\u5E73\u51FB\u53D1\u7403"
+    ruleResult: "\u51FB\u7403\u70B9\u5728{0}\uFF0C\u5E94\u8BE5\u5728{1}."
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 25
+    ruleFor: 3
+    ruleName: "\u53CC\u811A\u79FB\u52A8\u6B65\u6CD5\u4E0D\u5408\u7406"
+    ruleResult: "\u5DE6\u811A\u79FB\u52A8\u8DDD\u79BB\u4E3A{0}cm\uFF0C\u53F3\u811A\u79FB\u52A8\u8DDD\u79BB\u4E3A{1}cm,\u6BCF\u53EA\u811A\u7684\u79FB\u52A8\u8DDD\u79BB\u90FD\u5E94\u8D85\u8FC7{3}cm\u3002"
+    ruleType: 2
+    minValue: 0.2
+    maxValue: 3
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 26
+    ruleFor: 3
+    ruleName: "\u51FB\u7403\u65F6\u8EAB\u4F53\u91CD\u5FC3\u4E0D\u7A33\u5B9A"
+    ruleResult: 
+    ruleType: 0
+    minValue: 0
+    maxValue: 30
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 27
+    ruleFor: 2
+    ruleName: "\u53CC\u811A\u79FB\u52A8\u6B65\u6CD5\u4E0D\u5408\u7406"
+    ruleResult: "\u5DE6\u811A\u79FB\u52A8\u8DDD\u79BB\u4E3A{0}cm\uFF0C\u53F3\u811A\u79FB\u52A8\u8DDD\u79BB\u4E3A{1}cm,\u6BCF\u53EA\u811A\u7684\u79FB\u52A8\u8DDD\u79BB\u90FD\u5E94\u8D85\u8FC7{3}cm\u3002"
+    ruleType: 2
+    minValue: 0.2
+    maxValue: 1
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 28
+    ruleFor: 2
+    ruleName: "\u51FB\u7403\u65F6\u8EAB\u4F53\u91CD\u5FC3\u4E0D\u7A33\u5B9A"
+    ruleResult: "\u8EAF\u5E72\u4E0E\u8EAB\u4F53\u5DE6\u53F3\u4E24\u4FA7\u503E\u659C\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 10
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 29
+    ruleFor: 2
+    ruleName: "\u4E2D\u95F4\u4F4D\u6B63\u624B\u653B\u7AD9\u4F4D\u672A\u4FA7\u5BF9\u7403\u53F0"
+    ruleResult: 
+    ruleType: 0
+    minValue: 10
+    maxValue: 45
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 30
+    ruleFor: 9
+    ruleName: "\u52A9\u8DD1\u65F6\uFF0C\u8DD1\u52A8\u65B9\u5411\u4E0E\u51FA\u7403\u65B9\u5411\u4E0D\u4E00\u81F4"
+    ruleResult: 
+    ruleType: 0
+    minValue: -5
+    maxValue: 5
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 31
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u652F\u6491\u811A\u4E0D\u5728\u7403\u7684\u4FA7\u9762"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u51FA\u7403\u65B9\u5411\u7684\u5DE6\u4FA7\u4E0E\u652F\u6491\u811A\u5230\u7403\u65B9\u5411\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u5E94\u5728{1}-{2}\u533A\u95F4"
+    ruleType: 0
+    minValue: 0
+    maxValue: 10
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 32
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u652F\u6491\u811A\u8DDD\u79BB\u4E0D\u5F53"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u652F\u6491\u811A\u4E0E\u7403\u7684\u8DDD\u79BB\u4E3A{0}cm\uFF0C\u8DDD\u79BB\u5E94\u5728{1}cm-{2}cm\u4E4B\u95F4\u3002"
+    ruleType: 1
+    minValue: 0.12
+    maxValue: 0.15
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 51
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u51FB\u7403\u811A\u9762\u662F\u5426\u4E0E\u5730\u9762\u5E73\u884C"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u7403\u978B\u7684\u5411\u4E0A\u65B9\u5411\u548C\u8349\u76AE\u7684\u5411\u4E0A\u65B9\u5411\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u533A\u95F4\u5E94\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 5
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 33
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u652F\u6491\u811A\u6CA1\u6709\u548C\u811A\u5F13\u5782\u76F4"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u652F\u6491\u811A\u7684\u5411\u524D\u65B9\u5411\u548C\u51FB\u7403\u811A\u7684\u5DE6\u4FA7\u65B9\u5411\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u5939\u89D2\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 5
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 34
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u51FB\u7403\u70B9\u8981\u5728\u7403\u7684\u540E\u4E2D\u90E8\u4F4D"
+    ruleResult: "\u51FB\u7403\u70B9\u81F3\u7403\u5FC3\u65B9\u5411\u4E0E\u8DB3\u7403\u6C34\u5E73\u9762\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u5728{1}-{2}\u533A\u95F4\u5185\uFF0C\u5219\u8BA4\u4E3A\u51FB\u7403\u70B9\u5728\u7403\u7684\u540E\u4E2D\u90E8\u4F4D\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 4
+    isActive: 0
+    ruleDesc: 
+    stage: 0
+  - ruleID: 35
+    ruleFor: 9
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u811A\u89E6\u7403\u90E8\u4F4D\u975E\u811A\u5185\u4FA7"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u51FB\u7403\u7684\u90E8\u4F4D\u4E3A{0}\uFF0C\u5E94\u8BE5\u4E3A{1}."
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 36
+    ruleFor: 6
+    ruleName: "\u52A9\u8DD1\u8DEF\u7EBF\u4E0D\u6B63\u786E"
+    ruleResult: 
+    ruleType: 0
+    minValue: 35
+    maxValue: 50
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 37
+    ruleFor: 6
+    ruleName: "\u652F\u6491\u811A\u4F4D\u7F6E\u4E0D\u6B63\u786E"
+    ruleResult: "\u652F\u6491\u811A\u81F3\u7403\u7684\u65B9\u5411\u548C\u7403\u5411\u7403\u95E8\u7684\u65B9\u5411\u7684\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u5E94\u8BE5\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 35
+    maxValue: 50
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 38
+    ruleFor: 6
+    ruleName: "\u652F\u6491\u811A\u8DDD\u79BB\u4E0D\u6B63\u786E"
+    ruleResult: "\u652F\u6491\u811A\u548C\u7403\u7684\u8DDD\u79BB\u4E3A{0}cm\uFF0C\u8DDD\u79BB\u5E94\u8BE5\u5728{1}cm-{2}cm\u4E4B\u95F4\u3002"
+    ruleType: 1
+    minValue: 0.2
+    maxValue: 0.25
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 39
+    ruleFor: 6
+    ruleName: "\u811A\u7EF7\u76F4\u4E0D\u5230\u4F4D"
+    ruleResult: "\u811A\u5C16\u65B9\u5411\u4E0E\u5C0F\u817F\u5411\u4E0A\u7684\u65B9\u5411\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u5E94\u5728{1}-{2}\u4E4B\u95F4\u3002"
+    ruleType: 0
+    minValue: 125
+    maxValue: 180
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 40
+    ruleFor: 6
+    ruleName: "\u51FB\u7403\u540E\u8EAB\u4F53\u6CA1\u6709\u60EF\u6027\u79FB\u52A8"
+    ruleResult: "\u51FB\u7403\u540E\uFF0C\u8EAB\u4F53\u60EF\u6027\u79FB\u52A8\u7684\u8DDD\u79BB\u4E3A{0}cm,\u5E94\u4E0D\u5C0F\u4E0E{1}cm\u3002"
+    ruleType: 1
+    minValue: 0.05
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 41
+    ruleFor: 6
+    ruleName: "\u51FB\u7403\u70B9\u6CA1\u6709\u5728\u7403\u7684\u4E2D\u4E0B\u90E8\u4F4D"
+    ruleResult: "\u51FB\u7403\u70B9\u81F3\u7403\u5FC3\u65B9\u5411\u4E0E\u8DB3\u7403\u6C34\u5E73\u9762\u5939\u89D2\u4E3A{0}\xB0\uFF0C\u89D2\u5EA6\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\uFF0C\u4E14\u51FB\u7403\u70B9\u4E3A{3}\uFF0C\u51FB\u7403\u70B9\u5728\u7403\u7684\u5E94\u5728\u4E2D\u4E0B\u90E8\u4F4D\u3002"
+    ruleType: 2
+    minValue: 70
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 42
+    ruleFor: 6
+    ruleName: "\u51FB\u7403\u65F6\uFF0C\u7403\u89E6\u78B0\u811A\u7684\u4F4D\u7F6E\u975E\u811A\u80CC\u5185\u4FA7"
+    ruleResult: "\u51FB\u7403\u65F6\uFF0C\u51FB\u7403\u7684\u90E8\u4F4D\u4E3A{0}\uFF0C\u5E94\u8BE5\u4E3A{1}."
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 43
+    ruleFor: 7
+    ruleName: "\u8EAB\u4F53\u79FB\u52A8\u65F6, \u91CD\u5FC3\u504F\u9AD8"
+    ruleResult: "\u5DE6\u819D\u76D6\u5F2F\u66F2\u5EA6\u4E3A{0}\xB0\uFF0C\u53F3\u819D\u76D6\u5F2F\u66F2\u5EA6\u4E3A{1}\xB0\uFF0C\u53CC\u819D\u76D6\u5F2F\u66F2\u90FD\u4E0D\u5C0F\u4E8E{2}\xB0\u3002"
+    ruleType: 2
+    minValue: 5
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 44
+    ruleFor: 7
+    ruleName: "\u6B65\u5E45\u8FC7\u5927"
+    ruleResult: "\u4E24\u811A\u8DDD\u79BB\u4E3A{0}cm,\u5E94\u5728{1}cm-{2}cm\u533A\u95F4\u5185\u3002"
+    ruleType: 1
+    minValue: 0
+    maxValue: 0.25
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 45
+    ruleFor: 7
+    ruleName: "\u51FB\u7403\u70B9\u8981\u5728\u7403\u7684\u540E\u4E2D\u90E8\u4F4D"
+    ruleResult: 
+    ruleType: 0
+    minValue: -4
+    maxValue: 4
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 46
+    ruleFor: 8
+    ruleName: "\u9876\u7403\u65F6\u673A\u4E0D\u5BF9"
+    ruleResult: "\u9876\u7403\u65F6\u8EAF\u5E72\u4E0E\u5411\u4E0A\u7684\u89D2\u5EA6\u4E3A{0}\xB0,\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 0
+    maxValue: 5
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 47
+    ruleFor: 8
+    ruleName: "\u8EAB\u4F53\u6CA1\u6709\u540E\u4EF0"
+    ruleResult: "\u8EAB\u4F53\u540E\u4EF0\u89D2\u5EA6\u4E3A{0}\xB0\uFF0C\u5E94\u5728{1}-{2}\u533A\u95F4\u5185\u3002"
+    ruleType: 0
+    minValue: 15
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 48
+    ruleFor: 8
+    ruleName: "\u8EAB\u4F53\u5E73\u8861\u6027\u4E0D\u597D"
+    ruleResult: "\u5DE6\u624B\u624B\u81C2\u5F2F\u66F2\u5EA6\u4E3A{0}\xB0\uFF0C\u53F3\u624B\u624B\u81C2\u5F2F\u66F2\u5EA6\u4E3A{1}\xB0\uFF0C\u53CC\u81C2\u5F2F\u66F2\u4E0D\u5C0F\u4E8E{2}\xB0\u3002"
+    ruleType: 2
+    minValue: 5
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 49
+    ruleFor: 8
+    ruleName: "\u9876\u7403\u4E4B\u524D\u6CA1\u6709\u964D\u4F4E\u91CD\u5FC3"
+    ruleResult: "\u5DE6\u819D\u76D6\u5F2F\u66F2\u5EA6\u4E3A{0}\xB0\uFF0C\u53F3\u819D\u76D6\u5F2F\u66F2\u5EA6\u4E3A{1}\xB0\uFF0C\u53CC\u819D\u76D6\u5F2F\u66F2\u90FD\u4E0D\u5C0F\u4E8E{2}\xB0\u3002"
+    ruleType: 2
+    minValue: 5
+    maxValue: 90
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 50
+    ruleFor: 8
+    ruleName: "\u9876\u7403\u65F6\u9888\u5173\u8282\u672A\u56FA\u5B9A"
+    ruleResult: 
+    ruleType: 2
+    minValue: 0
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 52
+    ruleFor: 7
+    ruleName: "\u8EAB\u4F53\u79FB\u52A8\u65F6\u624B\u81C2\u50F5\u786C"
+    ruleResult: "\u5DE6\u624B\u624B\u81C2\u5F2F\u66F2\u5EA6\u4E3A{0}\xB0\uFF0C\u53F3\u624B\u624B\u81C2\u5F2F\u66F2\u5EA6\u4E3A{1}\xB0\uFF0C\u53CC\u81C2\u5F2F\u66F2\u4E0D\u5C0F\u4E8E{2}\xB0\u3002"
+    ruleType: 2
+    minValue: 5
+    maxValue: 0
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 53
+    ruleFor: 7
+    ruleName: "\u811A\u5185\u4FA7\u8FD0\u7403\u65F6\u7AD9\u4F4D\u4E0D\u6B63\u786E"
+    ruleResult: "\u8EAB\u4F53\u989D\u72B6\u9762\u7684\u6B63\u524D\u65B9\u4E0E\u8FD0\u7403\u65B9\u5411\u7684\u5939\u89D2\u672A{0}\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 0
+    maxValue: 10
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 54
+    ruleFor: 7
+    ruleName: "\u5916\u811A\u80CC\u8FD0\u7403\u65F6\uFF0C\u811A\u6CA1\u6709\u5185\u6263"
+    ruleResult: "\u811A\u5185\u6263\u89D2\u5EA6\u4E3A{0}\uFF0C\u5E94\u8BE5\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 10
+    maxValue: 50
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 55
+    ruleFor: 7
+    ruleName: "\u6B63\u811A\u80CC\u8FD0\u7403\u65F6\uFF0C\u811A\u6CA1\u6709\u7EF7\u76F4"
+    ruleResult: "\u811A\u7EF7\u76F4\u89D2\u5EA6\u4E3A{0}\uFF0C\u5E94\u8BE5\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 100
+    maxValue: 140
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 56
+    ruleFor: 7
+    ruleName: "\u6B63\u811A\u80CC\u8FD0\u7403\u65F6\u7AD9\u4F4D\u4E0D\u6B63\u786E"
+    ruleResult: "\u8EAB\u4F53\u989D\u72B6\u9762\u7684\u6B63\u524D\u65B9\u4E0E\u8FD0\u7403\u65B9\u5411\u7684\u5939\u89D2\u672A{0}\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 0
+    maxValue: 20
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 57
+    ruleFor: 7
+    ruleName: "\u5916\u811A\u80CC\u8FD0\u7403\u65F6\u7AD9\u4F4D\u4E0D\u6B63\u786E"
+    ruleResult: "\u8EAB\u4F53\u989D\u72B6\u9762\u7684\u6B63\u524D\u65B9\u4E0E\u8FD0\u7403\u65B9\u5411\u7684\u5939\u89D2\u672A{0}\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: 0
+    maxValue: 20
+    isActive: 0
+    ruleDesc: 
+    stage: 1
+  - ruleID: 63
+    ruleFor: 6
+    ruleName: "\u5C04\u95E8\u65F6\uFF0C\u51FB\u7403\u811A\u6CA1\u6709\u5916\u5C55"
+    ruleResult: "\u5916\u5C55\u89D2\u4E3A{0}\uFF0C\u5E94\u5728{1}-{2}\u4E4B\u95F4"
+    ruleType: 0
+    minValue: -10
+    maxValue: -50
+    isActive: 0
+    ruleDesc: 
+    stage: 1

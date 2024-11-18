@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Game/Scene/StartUI.unity
+    guid: 79781b7d4017ac74a87f00493ba9f2a6
+  - enabled: 1
+    path: Assets/Game/Scene/Main/HTCScene/FootBallCrossingForHtc.unity
+    guid: d1c5d4132645b794a952f832242323d1
+  - enabled: 1
+    path: Assets/Game/Scene/Main/HTCScene/FootBallHeadForHtc.unity
+    guid: 4a4aed4d102af08438c30d13e1b17733
+  - enabled: 1
+    path: Assets/Game/Scene/Main/HTCScene/FootBallPassCatchingForHtc.unity
+    guid: c07fcd9daca9d824ea906307d39d4dcd
+  - enabled: 1
+    path: Assets/Game/Scene/Main/HTCScene/FootBallShootingForHtc.unity
+    guid: 3d7d88ca6fc2b5a4fb54070f915ef3d0
+  - enabled: 0
+    path: Assets/Game/Scene/Main/HTCScene/RelayScene.unity
+    guid: 3ba193801a7ad1244b7a59b1d844baf7
+  m_configObjects:
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 87a59eadc9468674a83fc2a49e2849ff, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 519b1e02d08c1c64dadb17cfd3a50470, type: 2}

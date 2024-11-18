@@ -1,0 +1,2 @@
+D:\HTCFootball_1_0511\obj\Debug\SteamVR_Input_Editor.csproj.AssemblyReference.cache
+D:\HTCFootball_1_0511\obj\Debug\SteamVR_Input_Editor.csproj.CoreCompileInputs.cache

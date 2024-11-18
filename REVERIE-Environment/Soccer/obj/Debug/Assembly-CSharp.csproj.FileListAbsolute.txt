@@ -1,0 +1,2 @@
+D:\HTCFootball_1_0511\obj\Debug\Assembly-CSharp.csproj.AssemblyReference.cache
+D:\HTCFootball_1_0511\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

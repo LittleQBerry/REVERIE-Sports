@@ -1,0 +1,6122 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - HutongGames.PlayMakerEditor.EditorStartupPrefs
+    Assembly-CSharp.dll:
+    - BaffleDect
+    - BallContr
+    - BallRecordBehavior
+    - BodyPointContr
+    - CameriaTrack
+    - Cogobyte.ProceduralIndicators.ArrowObject
+    - Cogobyte.ProceduralIndicators.ArrowPath
+    - Cogobyte.ProceduralIndicators.ArrowTip
+    - Cogobyte.ProceduralLibrary.CirclePrimitive
+    - Cogobyte.ProceduralLibrary.MeshesList
+    - Cogobyte.ProceduralLibrary.PlanePrimitive
+    - Cogobyte.ProceduralLibrary.PrimitivesList
+    - Cogobyte.ProceduralLibrary.WingedArrowMesh
+    - CollisionCheck
+    - CrossSceneManager
+    - CubeWall
+    - EliCDavis.RecordAndPlay.Record.SubjectBehavior
+    - FakeManDect
+    - FlagDetect
+    - FootAttr
+    - FootPointPartDetect
+    - GameManager
+    - GoalDect
+    - HeadContr
+    - HeadEye
+    - HeadSceneManager
+    - HtcHead
+    - IndicatorManager
+    - LayerLab.PanelSciFiSurvival
+    - LeftFootForRec
+    - LegSetting
+    - LookCamera
+    - MainSceneManager
+    - MenuCube
+    - MenuPoint
+    - Move
+    - Neuron.NeuronSourceManager
+    - Neuron.NeuronTransformsInstance
+    - OutCycleDetec
+    - PassSceneManager
+    - Player
+    - ProgressUI
+    - RecordTransform
+    - RecorderForAniAndVR
+    - RecorderForAxis
+    - RedGreenContr
+    - ReplayDataPage
+    - ReplayDataSlot
+    - RightFootForRecord
+    - RuleAttr
+    - SceneBaseManager
+    - ScoreCube
+    - SetFootUp
+    - SettingOffset
+    - ShootMananger
+    - SpawnPoint
+    - SpwanGroup
+    - TipUI
+    - UIPanel
+    - UserAccount
+    - WearShose
+    - WelComePage
+    - cubeSpwanPoint
+    - snapTracker
+    - spawnFootBall
+    HurricaneVR.Editor.dll:
+    - HurricaneVR.Editor.HVREditorPreferences
+    HurricaneVR.Framework.dll:
+    - HurricaneVR.Framework.Components.HVRControllerOffset
+    - HurricaneVR.Framework.Components.HVRControllerOffsets
+    - HurricaneVR.Framework.Components.HVRDontDestroy
+    - HurricaneVR.Framework.Components.HVRImpactHaptics
+    - HurricaneVR.Framework.Components.HVRRigidBodyOverrides
+    - HurricaneVR.Framework.Components.HVRThrowingCenterOfMass
+    - HurricaneVR.Framework.ControllerInput.HVRControllerEvents
+    - HurricaneVR.Framework.ControllerInput.HVRGlobalInputs
+    - HurricaneVR.Framework.ControllerInput.HVRInputManager
+    - HurricaneVR.Framework.ControllerInput.HVRPlayerInputs
+    - HurricaneVR.Framework.ControllerInput.HVRTrackedController
+    - HurricaneVR.Framework.Core.Bags.HVRSocketBag
+    - HurricaneVR.Framework.Core.Bags.HVRTriggerGrabbableBag
+    - HurricaneVR.Framework.Core.Grabbers.HVRHandGrabber
+    - HurricaneVR.Framework.Core.HVRGrabPoints
+    - HurricaneVR.Framework.Core.HVRGrabbable
+    - HurricaneVR.Framework.Core.HVRGrabbableChild
+    - HurricaneVR.Framework.Core.HVRHandPhysics
+    - HurricaneVR.Framework.Core.HVRManager
+    - HurricaneVR.Framework.Core.HVRSettings
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandAnimator
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandMirrorSettings
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandPose
+    - HurricaneVR.Framework.Core.HandPoser.HVRHandPoser
+    - HurricaneVR.Framework.Core.HandPoser.HVRPhysicsPoser
+    - HurricaneVR.Framework.Core.HandPoser.HVRPosableGrabPoint
+    - HurricaneVR.Framework.Core.HandPoser.HVRPosableHand
+    - HurricaneVR.Framework.Core.Player.HVRCamera
+    - HurricaneVR.Framework.Core.Player.HVRCameraRig
+    - HurricaneVR.Framework.Core.Player.HVRCanvasFade
+    - HurricaneVR.Framework.Core.Player.HVRGhostHand
+    - HurricaneVR.Framework.Core.Player.HVRGlobalFadeFinder
+    - HurricaneVR.Framework.Core.Player.HVRHeadCollision
+    - HurricaneVR.Framework.Core.Player.HVRJointHand
+    - HurricaneVR.Framework.Core.Player.HVRPlayerController
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRForcePullSettings
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRJointSettings
+    - HurricaneVR.Framework.Core.ScriptableObjects.HVRRecoilSettings
+    - HurricaneVR.Framework.Core.Sockets.HVRSocketableTags
+    - HurricaneVR.Framework.Core.Stabbing.HVRStabbableSettings
+    - HurricaneVR.Framework.Core.Stabbing.HVRStabberSettings
+    - HurricaneVR.Framework.Core.UI.HVRUIPointer
+    - HurricaneVR.Framework.Core.Utils.AxisLines
+    - HurricaneVR.Framework.Core.Utils.HVRTimeManager
+    - HurricaneVR.Framework.Core.Utils.SFXPlayer
+    - HurricaneVR.Framework.Shared.HVRFingerSettings
+    - HurricaneVR.Framework.Shared.HVRGrabHaptics
+    - HurricaneVR.Framework.Shared.HVRInputSettings
+    - HurricaneVR.Framework.Weapons.Guns.HVRGunHaptics
+    PlayMaker.dll:
+    - PlayMakerFSM
+    - PlayMakerGUI
+    - PlayMakerGlobals
+    - PlayMakerPrefs
+    SteamVR.dll:
+    - Valve.VR.Extras.SteamVR_GazeTracker
+    - Valve.VR.SteamVR_Behaviour_Pose
+    - Valve.VR.SteamVR_Behaviour_Skeleton
+    - Valve.VR.SteamVR_CameraHelper
+    - Valve.VR.SteamVR_ExternalCamera
+    - Valve.VR.SteamVR_PlayArea
+    - Valve.VR.SteamVR_RenderModel
+    - Valve.VR.SteamVR_Settings
+    - Valve.VR.SteamVR_Skeleton_Pose
+    - Valve.VR.SteamVR_Skeleton_Poser
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_ColorGradient
+    - TMPro.TMP_Dropdown
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_InputField
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    Unity.XR.Management.Editor.dll:
+    - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
+    Unity.XR.Management.dll:
+    - UnityEngine.XR.Management.XRGeneralSettings
+    - UnityEngine.XR.Management.XRManagerSettings
+    Unity.XR.OpenVR.dll:
+    - Unity.XR.OpenVR.OpenVRLoader
+    - Unity.XR.OpenVR.OpenVRSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.SpatialTracking.dll:
+    - UnityEngine.SpatialTracking.TrackedPoseDriver
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.GridLayoutGroup
+    - UnityEngine.UI.HorizontalLayoutGroup
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
+    - UnityEngine.UI.LayoutElement
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.RawImage
+    - UnityEngine.UI.RectMask2D
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
+    - UnityEngine.UI.VerticalLayoutGroup
+  sceneClasses:
+    Assets/Game/Scene/Main/HTCScene/FootBallCrossingForHtc.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1848}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 1990}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 2284}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2676}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3004}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3168}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3628}
+    - Class: 114
+      Script: {instanceID: 3716}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4008}
+    - Class: 114
+      Script: {instanceID: 4238}
+    - Class: 114
+      Script: {instanceID: 4310}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4336}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 4486}
+    - Class: 114
+      Script: {instanceID: 4714}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4876}
+    - Class: 114
+      Script: {instanceID: 4904}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5106}
+    - Class: 114
+      Script: {instanceID: 5148}
+    - Class: 114
+      Script: {instanceID: 5152}
+    - Class: 114
+      Script: {instanceID: 5340}
+    - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
+      Script: {instanceID: 5688}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5752}
+    - Class: 114
+      Script: {instanceID: 5908}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6138}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6360}
+    - Class: 114
+      Script: {instanceID: 6372}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6534}
+    - Class: 114
+      Script: {instanceID: 6548}
+    - Class: 114
+      Script: {instanceID: 6700}
+    - Class: 114
+      Script: {instanceID: 6864}
+    - Class: 114
+      Script: {instanceID: 6868}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7004}
+    - Class: 114
+      Script: {instanceID: 7030}
+    - Class: 114
+      Script: {instanceID: 7110}
+    - Class: 114
+      Script: {instanceID: 7234}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 7526}
+    - Class: 114
+      Script: {instanceID: 7528}
+    - Class: 114
+      Script: {instanceID: 7612}
+    - Class: 114
+      Script: {instanceID: 7718}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 7824}
+    - Class: 114
+      Script: {instanceID: 7912}
+    - Class: 114
+      Script: {instanceID: 7956}
+    - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8300}
+    - Class: 114
+      Script: {instanceID: 8362}
+    - Class: 114
+      Script: {instanceID: 8404}
+    - Class: 114
+      Script: {instanceID: 8440}
+    - Class: 114
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8546}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8560}
+    - Class: 114
+      Script: {instanceID: 8874}
+    - Class: 114
+      Script: {instanceID: 9156}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Game/Scene/Main/HTCScene/FootBallHeadForHtc.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1818}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 1990}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 2284}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2676}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3004}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3628}
+    - Class: 114
+      Script: {instanceID: 3716}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4008}
+    - Class: 114
+      Script: {instanceID: 4238}
+    - Class: 114
+      Script: {instanceID: 4246}
+    - Class: 114
+      Script: {instanceID: 4310}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4336}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 4486}
+    - Class: 114
+      Script: {instanceID: 4714}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4876}
+    - Class: 114
+      Script: {instanceID: 4904}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5106}
+    - Class: 114
+      Script: {instanceID: 5152}
+    - Class: 114
+      Script: {instanceID: 5340}
+    - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
+      Script: {instanceID: 5688}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5752}
+    - Class: 114
+      Script: {instanceID: 5908}
+    - Class: 114
+      Script: {instanceID: 5942}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6138}
+    - Class: 114
+      Script: {instanceID: 6360}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6534}
+    - Class: 114
+      Script: {instanceID: 6548}
+    - Class: 114
+      Script: {instanceID: 6700}
+    - Class: 114
+      Script: {instanceID: 6864}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7004}
+    - Class: 114
+      Script: {instanceID: 7030}
+    - Class: 114
+      Script: {instanceID: 7234}
+    - Class: 114
+      Script: {instanceID: 7348}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 7526}
+    - Class: 114
+      Script: {instanceID: 7528}
+    - Class: 114
+      Script: {instanceID: 7612}
+    - Class: 114
+      Script: {instanceID: 7718}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 7824}
+    - Class: 114
+      Script: {instanceID: 7912}
+    - Class: 114
+      Script: {instanceID: 7956}
+    - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8300}
+    - Class: 114
+      Script: {instanceID: 8362}
+    - Class: 114
+      Script: {instanceID: 8404}
+    - Class: 114
+      Script: {instanceID: 8440}
+    - Class: 114
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8546}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8560}
+    - Class: 114
+      Script: {instanceID: 8576}
+    - Class: 114
+      Script: {instanceID: 8586}
+    - Class: 114
+      Script: {instanceID: 8874}
+    - Class: 114
+      Script: {instanceID: 9156}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Game/Scene/Main/HTCScene/FootBallPassCatchingForHtc.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1726}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 1990}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 2284}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2598}
+    - Class: 114
+      Script: {instanceID: 2676}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3004}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3490}
+    - Class: 114
+      Script: {instanceID: 3628}
+    - Class: 114
+      Script: {instanceID: 3716}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3842}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4008}
+    - Class: 114
+      Script: {instanceID: 4238}
+    - Class: 114
+      Script: {instanceID: 4310}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4336}
+    - Class: 114
+      Script: {instanceID: 4340}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 4486}
+    - Class: 114
+      Script: {instanceID: 4714}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4876}
+    - Class: 114
+      Script: {instanceID: 4904}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5022}
+    - Class: 114
+      Script: {instanceID: 5106}
+    - Class: 114
+      Script: {instanceID: 5340}
+    - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
+      Script: {instanceID: 5688}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5752}
+    - Class: 114
+      Script: {instanceID: 5908}
+    - Class: 114
+      Script: {instanceID: 5942}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6138}
+    - Class: 114
+      Script: {instanceID: 6180}
+    - Class: 114
+      Script: {instanceID: 6298}
+    - Class: 114
+      Script: {instanceID: 6342}
+    - Class: 114
+      Script: {instanceID: 6360}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6534}
+    - Class: 114
+      Script: {instanceID: 6548}
+    - Class: 114
+      Script: {instanceID: 6668}
+    - Class: 114
+      Script: {instanceID: 6700}
+    - Class: 114
+      Script: {instanceID: 6724}
+    - Class: 114
+      Script: {instanceID: 6864}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7004}
+    - Class: 114
+      Script: {instanceID: 7030}
+    - Class: 114
+      Script: {instanceID: 7234}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 7526}
+    - Class: 114
+      Script: {instanceID: 7528}
+    - Class: 114
+      Script: {instanceID: 7612}
+    - Class: 114
+      Script: {instanceID: 7718}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 7824}
+    - Class: 114
+      Script: {instanceID: 7912}
+    - Class: 114
+      Script: {instanceID: 7956}
+    - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8272}
+    - Class: 114
+      Script: {instanceID: 8300}
+    - Class: 114
+      Script: {instanceID: 8362}
+    - Class: 114
+      Script: {instanceID: 8404}
+    - Class: 114
+      Script: {instanceID: 8440}
+    - Class: 114
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8546}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8560}
+    - Class: 114
+      Script: {instanceID: 8586}
+    - Class: 114
+      Script: {instanceID: 8874}
+    - Class: 114
+      Script: {instanceID: 9016}
+    - Class: 114
+      Script: {instanceID: 9076}
+    - Class: 114
+      Script: {instanceID: 9156}
+    - Class: 114
+      Script: {instanceID: 9252}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Game/Scene/Main/HTCScene/FootBallShootingForHtc.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1610}
+    - Class: 114
+      Script: {instanceID: 1612}
+    - Class: 114
+      Script: {instanceID: 1722}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1896}
+    - Class: 114
+      Script: {instanceID: 1972}
+    - Class: 114
+      Script: {instanceID: 1986}
+    - Class: 114
+      Script: {instanceID: 1990}
+    - Class: 114
+      Script: {instanceID: 2028}
+    - Class: 114
+      Script: {instanceID: 2284}
+    - Class: 114
+      Script: {instanceID: 2412}
+    - Class: 114
+      Script: {instanceID: 2428}
+    - Class: 114
+      Script: {instanceID: 2540}
+    - Class: 114
+      Script: {instanceID: 2676}
+    - Class: 114
+      Script: {instanceID: 2734}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2876}
+    - Class: 114
+      Script: {instanceID: 3004}
+    - Class: 114
+      Script: {instanceID: 3064}
+    - Class: 114
+      Script: {instanceID: 3088}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 3222}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3232}
+    - Class: 114
+      Script: {instanceID: 3628}
+    - Class: 114
+      Script: {instanceID: 3716}
+    - Class: 114
+      Script: {instanceID: 3744}
+    - Class: 114
+      Script: {instanceID: 3986}
+    - Class: 114
+      Script: {instanceID: 4008}
+    - Class: 114
+      Script: {instanceID: 4238}
+    - Class: 114
+      Script: {instanceID: 4246}
+    - Class: 114
+      Script: {instanceID: 4310}
+    - Class: 114
+      Script: {instanceID: 4314}
+    - Class: 114
+      Script: {instanceID: 4336}
+    - Class: 114
+      Script: {instanceID: 4360}
+    - Class: 114
+      Script: {instanceID: 4422}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 4486}
+    - Class: 114
+      Script: {instanceID: 4714}
+    - Class: 114
+      Script: {instanceID: 4816}
+    - Class: 114
+      Script: {instanceID: 4876}
+    - Class: 114
+      Script: {instanceID: 4904}
+    - Class: 114
+      Script: {instanceID: 4912}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5106}
+    - Class: 114
+      Script: {instanceID: 5340}
+    - Class: 114
+      Script: {instanceID: 5372}
+    - Class: 114
+      Script: {instanceID: 5688}
+    - Class: 114
+      Script: {instanceID: 5696}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5752}
+    - Class: 114
+      Script: {instanceID: 5908}
+    - Class: 114
+      Script: {instanceID: 5942}
+    - Class: 114
+      Script: {instanceID: 6092}
+    - Class: 114
+      Script: {instanceID: 6138}
+    - Class: 114
+      Script: {instanceID: 6360}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6534}
+    - Class: 114
+      Script: {instanceID: 6548}
+    - Class: 114
+      Script: {instanceID: 6700}
+    - Class: 114
+      Script: {instanceID: 6724}
+    - Class: 114
+      Script: {instanceID: 6864}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7004}
+    - Class: 114
+      Script: {instanceID: 7030}
+    - Class: 114
+      Script: {instanceID: 7234}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 7526}
+    - Class: 114
+      Script: {instanceID: 7528}
+    - Class: 114
+      Script: {instanceID: 7612}
+    - Class: 114
+      Script: {instanceID: 7718}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 7766}
+    - Class: 114
+      Script: {instanceID: 7824}
+    - Class: 114
+      Script: {instanceID: 7912}
+    - Class: 114
+      Script: {instanceID: 7956}
+    - Class: 114
+      Script: {instanceID: 8068}
+    - Class: 114
+      Script: {instanceID: 8220}
+    - Class: 114
+      Script: {instanceID: 8272}
+    - Class: 114
+      Script: {instanceID: 8300}
+    - Class: 114
+      Script: {instanceID: 8362}
+    - Class: 114
+      Script: {instanceID: 8404}
+    - Class: 114
+      Script: {instanceID: 8440}
+    - Class: 114
+      Script: {instanceID: 8506}
+    - Class: 114
+      Script: {instanceID: 8546}
+    - Class: 114
+      Script: {instanceID: 8550}
+    - Class: 114
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8560}
+    - Class: 114
+      Script: {instanceID: 8586}
+    - Class: 114
+      Script: {instanceID: 8710}
+    - Class: 114
+      Script: {instanceID: 8874}
+    - Class: 114
+      Script: {instanceID: 9156}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 120
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 143
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
+    Assets/Game/Scene/StartUI.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1596}
+    - Class: 114
+      Script: {instanceID: 1598}
+    - Class: 114
+      Script: {instanceID: 1600}
+    - Class: 114
+      Script: {instanceID: 1602}
+    - Class: 114
+      Script: {instanceID: 1604}
+    - Class: 114
+      Script: {instanceID: 1606}
+    - Class: 114
+      Script: {instanceID: 1608}
+    - Class: 114
+      Script: {instanceID: 1684}
+    - Class: 114
+      Script: {instanceID: 2198}
+    - Class: 114
+      Script: {instanceID: 2258}
+    - Class: 114
+      Script: {instanceID: 2290}
+    - Class: 114
+      Script: {instanceID: 2344}
+    - Class: 114
+      Script: {instanceID: 2750}
+    - Class: 114
+      Script: {instanceID: 2766}
+    - Class: 114
+      Script: {instanceID: 2890}
+    - Class: 114
+      Script: {instanceID: 2892}
+    - Class: 114
+      Script: {instanceID: 3004}
+    - Class: 114
+      Script: {instanceID: 3226}
+    - Class: 114
+      Script: {instanceID: 3520}
+    - Class: 114
+      Script: {instanceID: 3570}
+    - Class: 114
+      Script: {instanceID: 3876}
+    - Class: 114
+      Script: {instanceID: 4118}
+    - Class: 114
+      Script: {instanceID: 4316}
+    - Class: 114
+      Script: {instanceID: 4448}
+    - Class: 114
+      Script: {instanceID: 4552}
+    - Class: 114
+      Script: {instanceID: 4568}
+    - Class: 114
+      Script: {instanceID: 4808}
+    - Class: 114
+      Script: {instanceID: 4876}
+    - Class: 114
+      Script: {instanceID: 4892}
+    - Class: 114
+      Script: {instanceID: 5042}
+    - Class: 114
+      Script: {instanceID: 5150}
+    - Class: 114
+      Script: {instanceID: 5232}
+    - Class: 114
+      Script: {instanceID: 5316}
+    - Class: 114
+      Script: {instanceID: 5510}
+    - Class: 114
+      Script: {instanceID: 5676}
+    - Class: 114
+      Script: {instanceID: 5688}
+    - Class: 114
+      Script: {instanceID: 5706}
+    - Class: 114
+      Script: {instanceID: 5770}
+    - Class: 114
+      Script: {instanceID: 5840}
+    - Class: 114
+      Script: {instanceID: 6164}
+    - Class: 114
+      Script: {instanceID: 6432}
+    - Class: 114
+      Script: {instanceID: 6610}
+    - Class: 114
+      Script: {instanceID: 6902}
+    - Class: 114
+      Script: {instanceID: 7004}
+    - Class: 114
+      Script: {instanceID: 7018}
+    - Class: 114
+      Script: {instanceID: 7140}
+    - Class: 114
+      Script: {instanceID: 7432}
+    - Class: 114
+      Script: {instanceID: 7634}
+    - Class: 114
+      Script: {instanceID: 7720}
+    - Class: 114
+      Script: {instanceID: 7748}
+    - Class: 114
+      Script: {instanceID: 8024}
+    - Class: 114
+      Script: {instanceID: 8554}
+    - Class: 114
+      Script: {instanceID: 8782}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 134
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: d251bf88db6c95a6b1aa0b69298da9ef
+    assemblyName: UnityEngine.SpatialTracking.dll
+    namespaceName: UnityEngine.SpatialTracking
+    className: TrackedPoseDriver
+  - hash:
+      serializedVersion: 2
+      Hash: 2e4d26187828ec6fc78fe78f0712f15b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: CustomSkeletonHelper
+  - hash:
+      serializedVersion: 2
+      Hash: efac1618052047d86b1815ee832d6109
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 4babcedf2c855388444e1ddca3dc456b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NeuronRigidbodyListHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 04e4a8b0447477cc4e933d9e5311188f
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: ArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: ebd038490b53a66c1dc10ecea42f9162
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Hand
+  - hash:
+      serializedVersion: 2
+      Hash: cb0e06327eb5fb4e8b9ee1ad8caa7177
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRRecoilSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 0ce0e8344aea4bf3f56d2ed86ed6cf78
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: TerrainDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 4176aff25729c0874aaa5fe553549c32
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRAutoDropMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: fe11190a10f126cd0b4de245ec416842
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ControllerButtonHints
+  - hash:
+      serializedVersion: 2
+      Hash: 53105c36246aee69b047230af11f6e6f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: cb69d114f3239194cd6e55d632666098
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLockedDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 89bff639a59b00c182b46f4476efa69c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: PlanePrimitive
+  - hash:
+      serializedVersion: 2
+      Hash: 4a2271ea6b59dda5e4cf266f9824027c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: NormalSelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: fc00ca3e0086cfb1f52aa6bcc0896e5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: 62b46646c5807f5af58861d1906ded6c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: TipDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 9de53aeeb92884abad85bee801af90d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: PointDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 633379c47d2212c9eb4b8d002e04b9a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HtcHead
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 427b692857288fbe7a1b1be017c318f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FlagDetect
+  - hash:
+      serializedVersion: 2
+      Hash: 721246b762ed5c337b24cba083d0a101
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: BezierPathDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GetTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dea0f125541a7878400cbc515456efc6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportCollisonHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 8a874a8207a7664bdf44e61f28717254
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SkewTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: d0f72e335ba63de49df35d5745fee637
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearDisplacement
+  - hash:
+      serializedVersion: 2
+      Hash: 282c198cf27840ec11da0729d0ead0f3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_RenderModel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: SimpleScript
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: IgnoreTeleportTrace
+  - hash:
+      serializedVersion: 2
+      Hash: a84868af56eedd9ff6cb982f648605b3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoValveHologram
+  - hash:
+      serializedVersion: 2
+      Hash: 99c29fdb950942dd674adea8cbe52579
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: FloppyHand
+  - hash:
+      serializedVersion: 2
+      Hash: 62e9c83ecbcb3510323307ac113eab54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIPanel
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 94dbf74b4e32d45f77abbdb2cfbd3c75
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRManager
+  - hash:
+      serializedVersion: 2
+      Hash: c50067ddca09ab1e60f2f5e79267e723
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ArrowRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: e24d85065fc2be2c9e199dc8d02502e1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabbableChild
+  - hash:
+      serializedVersion: 2
+      Hash: e083e7b27b7394e180661a795da5f811
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRSocketBag
+  - hash:
+      serializedVersion: 2
+      Hash: f0bc6f9fcfd48dd2d269fd7f0bb458e6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketHoverMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 9074592771711a861bf3ac8427021425
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus
+    className: HighlightProfile
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BeatDataSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 83c09628c680259191c89bd4b14034ab
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRGrabPointSwapper
+  - hash:
+      serializedVersion: 2
+      Hash: abc3bf9fed5eea6c6ec1fd9bdf36d7c0
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRScaleHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 96a6c4ab18a460c3df638b4c0a111493
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: Switch
+  - hash:
+      serializedVersion: 2
+      Hash: 827788bf62ad53d2c918573e88943cd0
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Render
+  - hash:
+      serializedVersion: 2
+      Hash: 383fe362eb90dd619f6d853fd836f0d8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SeeThru
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RigidbodyVirtualCinematographyCtrl
+  - hash:
+      serializedVersion: 2
+      Hash: 805dda3c1e629a9b6aae8bdf5b9045f7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 0f9b8e73fb960d5de69a4ed2cf3c6d6c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRBulletEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: b163612e338021ab329c66304c6ca5f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus
+    className: HighlightEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 52fa6b22d9ebf344d382d078d7e1a4a7
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Balloon
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AddForceTest
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 08c544de23e8d45042a1c8322312f30b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ControllerHoverHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: d627f04505a23a9a5f03accf8393b534
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: VerticalOutlineTip
+  - hash:
+      serializedVersion: 2
+      Hash: 1485d87ccf580f90f2c54f70e8119c7a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LookCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 6d9613e3218f66e9203d80a63019b996
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: RefreshArrowDemo
+  - hash:
+      serializedVersion: 2
+      Hash: c3b18d4d656d0319fb9d508e8672dc9c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UserAccount
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus.Demos
+    className: SphereSelectionEventsExample
+  - hash:
+      serializedVersion: 2
+      Hash: b41a5b7cc47ed116b2d9e17f76346513
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackageReference
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 76bb9a0e411fb38a36f0d9b69fee2e55
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRForcePullSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 33f5fb6162669a3c887965548d614567
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundBowClick
+  - hash:
+      serializedVersion: 2
+      Hash: 8f8cbabafb472772e0aa9da19e8ed009
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_IK
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 7ad91d3a228089417739b640dfbd6e9b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 242e81d1c40c7dc4fbf76036b7bbaa75
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRPump
+  - hash:
+      serializedVersion: 2
+      Hash: 20d18c2753ce0c735730ab4d0fb1cafc
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRHandImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 8c32eeddc2cfa5acd7bbb7c8a48586cb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRPooledEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: eade5a5efd53b0e50dfe8fb48b76f0f7
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundPlayOneshot
+  - hash:
+      serializedVersion: 2
+      Hash: cef47705f2fc7c6fa1d7aa95839ee234
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeypadButton
+  - hash:
+      serializedVersion: 2
+      Hash: ddad6e74b466054da2ad2a4847821ce7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Record
+    className: SubjectBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: ab9c00ce2de5dbdba86076aefee67b6d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: TrackerArrow
+  - hash:
+      serializedVersion: 2
+      Hash: 7ada3f295a7ee7df5cdc894d7cd9b4ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: CirclePrimitive
+  - hash:
+      serializedVersion: 2
+      Hash: 08905cc647491d0a8cdaafb52d198287
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: GridIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: a6b2b285fcfdb0c347c81c546fb7dff5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChinarSmoothUi3DCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 8eb3a5f0b7fd900742b16e7776e2275b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_TrackedObject
+  - hash:
+      serializedVersion: 2
+      Hash: a9b2a6f6b174d17f6c544e956d720fc1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRHandGrabOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 0bb5f5ac69c4cd4301785f1f6c6a4352
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRPistol
+  - hash:
+      serializedVersion: 2
+      Hash: c97944088ea87154ff603a0dc9b3d5e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LegSetting
+  - hash:
+      serializedVersion: 2
+      Hash: 85af9a2367da2c6ce09bf448bd7d9ae1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearMapping
+  - hash:
+      serializedVersion: 2
+      Hash: ac4f392a9b143beee3bb54843f1faafe
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: UIElement
+  - hash:
+      serializedVersion: 2
+      Hash: b03d1c51938aa5acf14208025059c8af
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: LockToPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 279768045d861f23f3ea812bd285d1d2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: trackObj
+  - hash:
+      serializedVersion: 2
+      Hash: 27e5341178f188b89bdc6495710b590c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01_UGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 5b62f7c06f76af41df0abd1dd7c475cf
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRGlobalInputs
+  - hash:
+      serializedVersion: 2
+      Hash: cafe8f659ec4810167e189e3e06c6f57
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: PlaySound
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: e641cc5c7e361fdf4ecb4aac1adbf8de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHolster
+  - hash:
+      serializedVersion: 2
+      Hash: ec9cfd716e8b048ce509c8dd26bd2705
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnObj
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CheckBody
+  - hash:
+      serializedVersion: 2
+      Hash: 06f7839bdd3a7ca9920d4b6659531c09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus.Demos
+    className: HitFxDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 3b803f6b52fd61100d0908ef666aa824
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordData
+  - hash:
+      serializedVersion: 2
+      Hash: 0916452f62a2611827834efad2fe3828
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HoverButton
+  - hash:
+      serializedVersion: 2
+      Hash: e518b85e9db021fff58060223760af26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CheckMotion
+  - hash:
+      serializedVersion: 2
+      Hash: 122132296689dc147521cee805efdf98
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: SmartArrowUpdater
+  - hash:
+      serializedVersion: 2
+      Hash: f25c19a362caf61f721326aa2663a4c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: ColorDisplacementDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_A
+  - hash:
+      serializedVersion: 2
+      Hash: cc49ff940137fe95184a71d69ee920ec
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRGunSounds
+  - hash:
+      serializedVersion: 2
+      Hash: 3bcf9e5e6d9a9cc8e87ba04a636fee74
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoFullStabConfetti
+  - hash:
+      serializedVersion: 2
+      Hash: a27cadf518ad71ad278b183c76fd6b0c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTriggerButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: ee5270b3e1a28e6fc4d7dfaeba7a5724
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: CircleArrowPath
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: dirLean
+  - hash:
+      serializedVersion: 2
+      Hash: 08ddd6375b45a8a176fe9e6bce1ad94b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRHandPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: highlighttest
+  - hash:
+      serializedVersion: 2
+      Hash: 503196a1f60aab91cb941af8ddc0e37d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_ExternalCamera
+  - hash:
+      serializedVersion: 2
+      Hash: f7b138083d0a0218ac6acbbb940de3d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab
+    className: PanelSciFiSurvival
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_CameraMask
+  - hash:
+      serializedVersion: 2
+      Hash: e3fd6ecc9d6caa468d7bd91e02a94aba
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ComplexThrowable
+  - hash:
+      serializedVersion: 2
+      Hash: c79137f36738778f9e59b8446de44e5f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiFloatValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: d5c18d66b30055dbb746129dd12056cf
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: CircularDrive
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: MadeOfShapesDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 853774e8ab8147028d6326ea988ec73a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeypad
+  - hash:
+      serializedVersion: 2
+      Hash: 84ed1aa4145d8cf97e39933101ea721e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRRequireOtherGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ButtonEffect
+  - hash:
+      serializedVersion: 2
+      Hash: 58a89415d518eb45b073f6212913a74a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: TargetHitEffect
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: ef1178287008db80aec626a8c202fdaa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TableHitCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RightFootForRecord
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Unparent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 2c490b87ed60b4e7762108cedc3b9f1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: PrefabsDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 054c11ebe7357ca64685056210b17e5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadLeftEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 36ccc1a6b89db2be58442a6d5556540a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRIKTargets
+  - hash:
+      serializedVersion: 2
+      Hash: 214d5f196523be2402dc880968f7d22e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveDialogOpen
+  - hash:
+      serializedVersion: 2
+      Hash: 5a1310c90c456b1c15e8ede8fea161d0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CrossSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnDetachedFromHand
+  - hash:
+      serializedVersion: 2
+      Hash: b5498bb3f10e73fd2d1ba6edec3828de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: RollBallDemo
+  - hash:
+      serializedVersion: 2
+      Hash: f227747809fad0098e9b3d29b4e05ce8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ProgressUI
+  - hash:
+      serializedVersion: 2
+      Hash: 23bd7381dcbd24a00ff5cdfa59d4fb47
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HapticRack
+  - hash:
+      serializedVersion: 2
+      Hash: 664338e76eb0bae6c6c8f84ab4860921
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ArrowIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallRecordBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 8616abf4ebe5c3b7d80b8ed36c2d8f11
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.ScriptableObjects
+    className: HVRJointSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRGlobalFadeFinder
+  - hash:
+      serializedVersion: 2
+      Hash: d0f675debdfa790464e25d58967c01a8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DistanceHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 88d18071a6d022f1065b2ac4128313e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: MeshObject
+  - hash:
+      serializedVersion: 2
+      Hash: df5fcbb22456360801308fe455e0c519
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FakeTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 8269cb1dc3ef62672b7747e4005d8fb8
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabber
+  - hash:
+      serializedVersion: 2
+      Hash: 0784d4fd5b93bd75440d01eb2fac4233
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeA
+  - hash:
+      serializedVersion: 2
+      Hash: e641cc5c7e361fdf4ecb4aac1adbf8de
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 07b1f516f8c56beddce4af8dfd8b8861
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PoolManager
+  - hash:
+      serializedVersion: 2
+      Hash: b3adf0b53924c89c378d879f1125e937
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordBeatUI
+  - hash:
+      serializedVersion: 2
+      Hash: ad50c94648779d3e321b448b68c1b6b2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: AllowTeleportWhileAttachedToHand
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestOnTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArrowheadRotation
+  - hash:
+      serializedVersion: 2
+      Hash: fe2d355deb0ca31d59a0a7cf4d141fc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark04
+  - hash:
+      serializedVersion: 2
+      Hash: 51766bbb64239f4aac12d0068ffc9b14
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus
+    className: HighlightTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: bcd47a0f9048355efce7b89cbe9e48da
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRBowAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 1638ffb647f872f8662339b817477be6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: SmartArrow
+  - hash:
+      serializedVersion: 2
+      Hash: 5b113f8974d9ad60552d4cc8f8943fdd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartSetUp
+  - hash:
+      serializedVersion: 2
+      Hash: 365bc516b95057efcf1194048e2d1832
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunPart
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestScriptForCloud
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPhysicsHands
+  - hash:
+      serializedVersion: 2
+      Hash: a39551360e0f1f8a0f3e40a3c7dccff2
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRObjectCollisionDisabler
+  - hash:
+      serializedVersion: 2
+      Hash: b1a4580196175f84331ad03df5040617
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRMeshRendererHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 855ebabfc9e68e5a86b4d9b4940632d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Demo
+    className: PlayerBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: d4270d2ec8b3620ba9e28a813eff67cd
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Interactable
+  - hash:
+      serializedVersion: 2
+      Hash: 9515f5b397c8fe55d4df4b23bfd6cf36
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrowPassthrough
+  - hash:
+      serializedVersion: 2
+      Hash: 05369274881c71df39243f5e8c009264
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: PrimitivesList
+  - hash:
+      serializedVersion: 2
+      Hash: a340eede7e2ddb8dcaebb1b25e952dc9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSocketables
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabberManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: ff15ec5dc02a4717e944c0d5beef2146
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Dectct
+  - hash:
+      serializedVersion: 2
+      Hash: f89f442562039b77947cc8331e172768
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: TwoPointDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ExplosionWobble
+  - hash:
+      serializedVersion: 2
+      Hash: 971d144e2d3f2c0fc372b3607964aeef
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Skeleton
+  - hash:
+      serializedVersion: 2
+      Hash: e2ef2f51b76fbf5d12f65598a1db09ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHatchDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnParticleSystemDeath
+  - hash:
+      serializedVersion: 2
+      Hash: 865767fd905a12623f5660cf1d381c9f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Longbow
+  - hash:
+      serializedVersion: 2
+      Hash: 5bce200abbd25de443289ebf4891ecff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FootAttr
+  - hash:
+      serializedVersion: 2
+      Hash: 7d19057642c463daceac505ab19dd37e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_ForceSteamVRMode
+  - hash:
+      serializedVersion: 2
+      Hash: 445b759b55170d69b336179b14456a26
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRBullet
+  - hash:
+      serializedVersion: 2
+      Hash: ccccf9af9e5232050ab14a0b6632cc52
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsButton
+  - hash:
+      serializedVersion: 2
+      Hash: b975f682a3001f7c7b45e52a5f7ed3c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: NeuronInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 733d63e230e8b7a674b8bfd02525c480
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: FallbackCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: a27cadf518ad71ad278b183c76fd6b0c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRGripButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRPrimaryButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0b97c6d4478b0755745e0f5063ada277
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: UnityTemplateProjects
+    className: SimpleCameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 2c0a467ee7950c941c2dd8ef6b974a7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ChatController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 00a69090e8d5851ae4cb5cc6fdb6441d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketHoverScale
+  - hash:
+      serializedVersion: 2
+      Hash: e21ef1c0d7c9d39078122429cbedf8b6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRChamberedRoundFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HttpTest
+  - hash:
+      serializedVersion: 2
+      Hash: 45df818a6d4bc6874c2422e00cfdb813
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoPowerUnit
+  - hash:
+      serializedVersion: 2
+      Hash: 24f0afddd089c4d4742b222aad74f643
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 7536c3aaa3b668b80f1580147a12d30d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshProFloatingText
+  - hash:
+      serializedVersion: 2
+      Hash: 9e94169de5115e14cd584c7465cae2ed
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Vector3
+  - hash:
+      serializedVersion: 2
+      Hash: 1c0df4a9092330c04a5f6cb7b40125c9
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 636a77f3228481f2b67ba1c4242ac5b9
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ChaperoneInfo
+  - hash:
+      serializedVersion: 2
+      Hash: ca7f3db84d1aeb775b0d63a6fbf4fe61
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoKeyHologram
+  - hash:
+      serializedVersion: 2
+      Hash: 98aa0a0c8ff2910eb12af89c7e0eb661
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRGeneralSettings
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: b73119425cc0ab4ec6eef33ade1132ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiPointerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 8787c17ef7565efec6a36fe71b524eb1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RocketNew
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OutCycleDetec
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 32ff4b5156576f1537648eb60fd067d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FreeFlyCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Fade
+  - hash:
+      serializedVersion: 2
+      Hash: e50f2bc8a8382b7753e956bd781a2262
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 5118f61bc61f62e2f4289310d3b1edb9
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketableTags
+  - hash:
+      serializedVersion: 2
+      Hash: 8ab9295d94483c961936d82d233d3df2
+    assemblyName: Unity.XR.Management.dll
+    namespaceName: UnityEngine.XR.Management
+    className: XRManagerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 182bb5fdce4da752a95915047b435094
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: a17f3cdaffefa864a0d800602bcf922d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 370593f134e2685b00d73cbf4017d0fe
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 4002df09187c2b317d58e82d9e4795b2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 65fb86d2f74f034d658ef1bd1f20a8b1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6a7f714a9880f023bdef89ee6f27e6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: c56d90882f16d5f3f4248b996ea11b3e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTriggerTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 36523e329ecfea54e9616ff3929a905c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RocketTest
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 1e6bdda2b9ada8e9cb3f089af298493a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestructible
+  - hash:
+      serializedVersion: 2
+      Hash: f05a68ef047d3a7fc036c6b0caa72636
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: DragHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLeverDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 2aa573e9c8aac892419b05ae18b17e55
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRHandPoseRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: 531868fc57d7432ec52d45a0bcbf0d13
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerCanvasRaycastFilterProxy
+  - hash:
+      serializedVersion: 2
+      Hash: b8e001b85ae47a7139686abcd0329165
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRHandStrengthHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 880da2d803cb5111f2212e325f5b5cb3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDial
+  - hash:
+      serializedVersion: 2
+      Hash: e9f3da6fb043ba55c5686b2625010fb8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportArc
+  - hash:
+      serializedVersion: 2
+      Hash: 10b1919ccbda2374d3d472390908b2fb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoLock
+  - hash:
+      serializedVersion: 2
+      Hash: dcc114a5a54569e9d74f9017ab2384c5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: IgnoreHovering
+  - hash:
+      serializedVersion: 2
+      Hash: 6da6b4894776c926daf67b634e62a0c6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Demo
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: InteractableExample
+  - hash:
+      serializedVersion: 2
+      Hash: 88580cd35d2aac4ecde7166fc973286f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Overlay
+  - hash:
+      serializedVersion: 2
+      Hash: 697d439f5fbf5e86f033235881d43302
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SnapFoot
+  - hash:
+      serializedVersion: 2
+      Hash: d41289563d9c97b1f2bf2b37acf64fc2
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleporter
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: f90b814d5afb53a50d41ae8a649d518b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotgunAmmoSocket
+  - hash:
+      serializedVersion: 2
+      Hash: d6361c97f7278bb96d5119a1aa89faeb
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4cc560725df74c2b6a4922bc856bafd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordManager
+  - hash:
+      serializedVersion: 2
+      Hash: 1f79d4f3a75cf3c5d19a127d4f9a167f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRChargingHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRJoystickButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 8b1fe5dfdcf943fb3b72506b9f19335f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnvMapAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 0bb5f5ac69c4cd4301785f1f6c6a4352
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRAutomaticGun
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_SphericalProjection
+  - hash:
+      serializedVersion: 2
+      Hash: d449c4d2136476bf69d10dcc73794dd7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeadContr
+  - hash:
+      serializedVersion: 2
+      Hash: 54610308ee4582e90e886a99ed3a7910
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Move
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_UiFrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UploadFile
+  - hash:
+      serializedVersion: 2
+      Hash: 9b63fa9e55b7a25fede51d4dc4ccb3ba
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCollisionEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c49ea9ad6564907b12e6d581b6d0c1bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSlidingDoor
+  - hash:
+      serializedVersion: 2
+      Hash: b6a33fdb344a7dac59596a87d63afc68
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRPlayerWaist
+  - hash:
+      serializedVersion: 2
+      Hash: b5b67cbf20e92569f18d28e69972c498
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BodyPointContr
+  - hash:
+      serializedVersion: 2
+      Hash: 3992005e01fcd6564f2f821b1c0468f6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRPlayerInputs
+  - hash:
+      serializedVersion: 2
+      Hash: 72b1936ad80c003c584cae38d0420cf3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4a2271ea6b59dda5e4cf266f9824027c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ConvexNormalSelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: e52664c1a016d85d09f3cdf402505a5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: snapTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 1c2751b1e0a5dac3807c29eab6127dfd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: MeshesList
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: TwistedArrowDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 3c8f3a3d79ef1d1b21111cb1efd6d555
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpwanGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 1e153b9410362c70c415dc28fab98053
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: SphereMesh
+  - hash:
+      serializedVersion: 2
+      Hash: b73119425cc0ab4ec6eef33ade1132ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiDropEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Demos
+  - hash:
+      serializedVersion: 2
+      Hash: 012f217471efcdaa545a3cc27f756975
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackageSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: d73ff7336ddb91dd89aba05ba3fc2a1f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRHandGrabEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRPrimaryTouchButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: fd20fc2662641df73c839994c1c8202f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuCube
+  - hash:
+      serializedVersion: 2
+      Hash: e5e4fe39256d84d00af23ba7c7dde68b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRGrabbableBag
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 445c4578e5fe3309b82f234574ed26a5
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Equippable
+  - hash:
+      serializedVersion: 2
+      Hash: feb78dceea0e2fe48a2d7944264f876e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: ee159a38d2746465158884965b9e0982
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 002020d0363e1d2fc6726436c90292ce
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameriaTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8bb17c6bb854edbaa00afafb9f7f5023
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRMagazineSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DontDestroyOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 41b5395bdb531ac1b19938823da21493
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0e3d4b70b6b62ffb33dbeee784cb742c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRParentOnStart
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9acbd8d0a9c480fde99b02d91c37398e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: ShapesBodyRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: a004b1eaa8eece7a3c518faf51362f94
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: CameraTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 3375c3d749f8f4cad889721b431bdc27
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: CameraController
+  - hash:
+      serializedVersion: 2
+      Hash: 53105c36246aee69b047230af11f6e6f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRPhysicsGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 22c70273301f5dc1819c0ddf5e2f7a25
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRStringSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 0eba2a12ba450dcf7510bfa601429dae
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRTwoHandStrength
+  - hash:
+      serializedVersion: 2
+      Hash: b015e66e60a94f11ba71d89bb26779b8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: BoneLine
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PoseReset
+  - hash:
+      serializedVersion: 2
+      Hash: 7b2387ea8e7b659e5acd635b0aa73063
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TipUI
+  - hash:
+      serializedVersion: 2
+      Hash: 7530990bb91fd223848c4079555406ab
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRShotgun
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 067a7584029feeaf05fc6f7e6cc6d66a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: RotateHandle
+  - hash:
+      serializedVersion: 2
+      Hash: ffc57c4592a46a608f159364213d167c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoValveLock
+  - hash:
+      serializedVersion: 2
+      Hash: feb266db8f75c0c79ca2783802193653
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: CircularPathDemo
+  - hash:
+      serializedVersion: 2
+      Hash: efae10a878ee6ecd3b22fa46a670dfed
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRCockingHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 8528d6b2bf8de7e441f1c781a2231062
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: AmbientSound
+  - hash:
+      serializedVersion: 2
+      Hash: 95bc3ff871c9e462ef542d55aab8e3f4
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HandPhysics
+  - hash:
+      serializedVersion: 2
+      Hash: 63daf271709c3e5abe7a369ec11248d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiVector2ValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 1db7ff225941f0b7e535f000bd660ecb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: cd263bb9ab9879b0875aaf5a8119a487
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: fc0fdcf1d269ae479d6602d2f7ea7ebd
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDamageProvider
+  - hash:
+      serializedVersion: 2
+      Hash: 027839e74df134dc969af1d7105f59f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: BezierPathArray
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DebugUI
+  - hash:
+      serializedVersion: 2
+      Hash: b73119425cc0ab4ec6eef33ade1132ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiDragEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9c59e05f454390885cc799f49414a9f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ResetPose
+  - hash:
+      serializedVersion: 2
+      Hash: 57f9d5cc1d76c7d3e8d7610dbcd46e91
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRGrabHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1a715733395a8b371ad56c3b84d81272
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: PointListArrowPath
+  - hash:
+      serializedVersion: 2
+      Hash: 5fea5641e947b1b79600be5daf80e7d6
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArrowHand
+  - hash:
+      serializedVersion: 2
+      Hash: 2d47cc29897e0200022d97dcbc5aa45b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallContr
+  - hash:
+      serializedVersion: 2
+      Hash: e80c1450883443c68d6c2dade213536f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMPro_InstructionOverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecorderForAxis
+  - hash:
+      serializedVersion: 2
+      Hash: f74fb6a138534d7739445d9cb92e9071
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRStringSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: 2acf03cb1ad99a10a2f5983cd88c5f22
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestroyListener
+  - hash:
+      serializedVersion: 2
+      Hash: b1a4580196175f84331ad03df5040617
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRMeshGlowHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_CameraHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 4c62d53df90f31e4bad411fd24467498
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: PathDemo
+  - hash:
+      serializedVersion: 2
+      Hash: f17f469531a719b7ad1c94a78e475f07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: BodiesDemo
+  - hash:
+      serializedVersion: 2
+      Hash: e244702e0dc05782229aa524e4d757f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_ExampleScript_01
+  - hash:
+      serializedVersion: 2
+      Hash: b8c7297a93272bb07020274d63eb3934
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonHapticBump
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextConsoleSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 775d0a95e825cf5b3ea426a16a0d21d8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PassSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: df5d35a8ba9b5435cc70773ae5d40b5c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skeleton_Poser
+  - hash:
+      serializedVersion: 2
+      Hash: 11319334e5365797f8056694f9b5dae4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ObjectSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 1ef38d09a24a313a8fad1ddbbb359015
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotGun
+  - hash:
+      serializedVersion: 2
+      Hash: badc8d355a63a7b0291547b12e2277fc
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SpawnAndAttachAfterControllerIsTracking
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRCloneDelete
+  - hash:
+      serializedVersion: 2
+      Hash: 1db18da94fb2c01f38c3f278e17cc6ec
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ModalThrowable
+  - hash:
+      serializedVersion: 2
+      Hash: ce8a839438bfb2d93323488784997ad1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRHeadCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 182bb5fdce4da752a95915047b435094
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: a17f3cdaffefa864a0d800602bcf922d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 370593f134e2685b00d73cbf4017d0fe
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 4002df09187c2b317d58e82d9e4795b2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 65fb86d2f74f034d658ef1bd1f20a8b1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6a7f714a9880f023bdef89ee6f27e6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: ba41629ef242602fb9d3cdea89ab79ea
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRGrabbableImpactHaptics
+  - hash:
+      serializedVersion: 2
+      Hash: 876541412e7eb49d05ffab44f25627c2
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportArea
+  - hash:
+      serializedVersion: 2
+      Hash: b6514f552bd2ee9e736a5678aa7f7de3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextInfoDebugTool
+  - hash:
+      serializedVersion: 2
+      Hash: b08c10bc7a19bcb3970b0bbecae64f78
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportMarker
+  - hash:
+      serializedVersion: 2
+      Hash: d798e5ff6e5d782040fab556aae5cf99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReplayDataPage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 0fdc28078baa57a9d3cf739c22231465
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: CustomPolyPrimitive
+  - hash:
+      serializedVersion: 2
+      Hash: 9ac9015fa123dbbb4c9b25820dd06753
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: BodyTwistAndScaleDemo
+  - hash:
+      serializedVersion: 2
+      Hash: a1d522f6ddbe4629c9667e3ccd2c1c68
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus.Demos
+    className: ManualSelectionDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 4e3eeae63ee02902ce9f43000293a538
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: CircularPathArray
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 0cec98ed3de8fa6b23da4596fabc9383
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoManualTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRClimbable
+  - hash:
+      serializedVersion: 2
+      Hash: f082dd36da925ab826446b2311d5ad46
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRTriggerGrabbableBag
+  - hash:
+      serializedVersion: 2
+      Hash: 2eab79f8680e5ebea137d47852b19d48
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus
+    className: HighlightManager
+  - hash:
+      serializedVersion: 2
+      Hash: dd7520b7d4e690e8c593273e7b9fbe80
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: b69f9e56124babc794401a0d1bc50e95
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Throwable
+  - hash:
+      serializedVersion: 2
+      Hash: 105dfc98253ea40aa14b7071b2d339b8
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRJointHand
+  - hash:
+      serializedVersion: 2
+      Hash: 5e6d15db5ebee37b76c7931de9b54473
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: ComplexExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: d94cf8f260d8c2d5fae1de5f4983b730
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_TestTrackedCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5e6d15db5ebee37b76c7931de9b54473
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: FlatShadeExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: 0a178a1c85198b9dad8fc799b8bfaa65
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BodyCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_TrackingReferenceManager
+  - hash:
+      serializedVersion: 2
+      Hash: f5f25645085257c501404a702df6e587
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_TestThrow
+  - hash:
+      serializedVersion: 2
+      Hash: 24c74cc0d527a06113f2b967042769f0
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEditor.XR.LegacyInputHelpers
+    className: CameraOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 08689c62a974b431ac67549c3cc95423
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAssaultRifle
+  - hash:
+      serializedVersion: 2
+      Hash: 0bb5f5ac69c4cd4301785f1f6c6a4352
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunBase
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: abab0b0d33a4e14bac5d3abc7e854bd5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SliderContr
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: a7089f9264d52603b4e6e5c1fd3d2696
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: VelocityEstimator
+  - hash:
+      serializedVersion: 2
+      Hash: 52bcb9c2a78bdd8d98a59e915c346e75
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: TransitionArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: 2e9f3d33f0ba61bf00bace4be84e34bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Highdetct
+  - hash:
+      serializedVersion: 2
+      Hash: 62fef86270a167c41a606cfca1ecc156
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: ShaderPropAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 7b630ee217e90751e1cb830ddb3c9ed4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartCube
+  - hash:
+      serializedVersion: 2
+      Hash: 49f18158f17202e99a68281b27a89dd4
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRLever
+  - hash:
+      serializedVersion: 2
+      Hash: aab800eecd1a10c58455c4fbac42299f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: OutlineTip
+  - hash:
+      serializedVersion: 2
+      Hash: 770392bfbd3e53d1680a608c7d16ea71
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDoor
+  - hash:
+      serializedVersion: 2
+      Hash: 0a826c51431ee1cac9cc1c07620f0f46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiIntValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 86d194d4450e97e738da7d42054c7056
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FootContr
+  - hash:
+      serializedVersion: 2
+      Hash: 0e60655a65105e2189bae4c8749909ea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: LayerLab
+    className: PanelControlSciFiSurvival
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadUpEvents
+  - hash:
+      serializedVersion: 2
+      Hash: fed2f064116d2a8fdfea40cf8386f1fb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPosableHand
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: ShapeChangeDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 8acb93aaa20724d8425fc6e9315b66ae
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SpawnAndAttachToHand
+  - hash:
+      serializedVersion: 2
+      Hash: 26cb8ebd487f26bcee6e0586236df24a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRHandGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 19c8f50a13faf2ca8b55011467237ba6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationLimiter
+  - hash:
+      serializedVersion: 2
+      Hash: 10ae549e431ceae901568a80785e4baa
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRControllerOffsets
+  - hash:
+      serializedVersion: 2
+      Hash: b68704c6c4e55e24ef05557651f9a080
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: TrackObjectDemo
+  - hash:
+      serializedVersion: 2
+      Hash: e6f0efd0e20669d577e9d21526b3d3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: WarpTextExample
+  - hash:
+      serializedVersion: 2
+      Hash: f8ff1c125332264eaed09d3b6b0a30d5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRTimeManager
+  - hash:
+      serializedVersion: 2
+      Hash: 57c80f900c17b9ec8d6178633ba620f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraForRecModel
+  - hash:
+      serializedVersion: 2
+      Hash: f082dd36da925ab826446b2311d5ad46
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Bags
+    className: HVRForceGrabberBag
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bb032ae1032fb00d399b5583af49d85a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: ColoringDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 3fff2922481b62c40b519b59e8b85648
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiEndEditEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ae749f98440986fd814d5292cdb63f67
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRForceGrabberLaser
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: FlowerPlanted
+  - hash:
+      serializedVersion: 2
+      Hash: 25c426f94768dd848da129dbfa3f5e2d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: 6f784e8d14612d68d5f8b21517898d4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ReplayDataSlot
+  - hash:
+      serializedVersion: 2
+      Hash: 365bc516b95057efcf1194048e2d1832
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGunBolt
+  - hash:
+      serializedVersion: 2
+      Hash: 3bb052e9ccbb208beec89f504991c63e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: MeshGridIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: c8ebe1a6445d89267090af7e7c5c957f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAudioPitch
+  - hash:
+      serializedVersion: 2
+      Hash: 5639e4b4735f158bf2483cf97bd96978
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRPistol
+  - hash:
+      serializedVersion: 2
+      Hash: 46c59d5d1a5e63604883610b659baee7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRInputManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Record
+    className: Recorder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_DigitValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FakeManDect
+  - hash:
+      serializedVersion: 2
+      Hash: 4ad6beda2c0ca76215175ddca461ae7c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: Grenade
+  - hash:
+      serializedVersion: 2
+      Hash: 5be5617aaccaba711b254597d4101940
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SnapTurn
+  - hash:
+      serializedVersion: 2
+      Hash: 7a6689e1d19771f329bd6e61f8a217a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: NeuronRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 209aea421066d1d7c810fc491097b4f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHolsterOrientation
+  - hash:
+      serializedVersion: 2
+      Hash: caf56920c7ba21ff1f082d2812971744
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: NeuronTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ColliderTest
+  - hash:
+      serializedVersion: 2
+      Hash: 9917e22a96b95b5c9319e08fc5849155
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: CustomPathArray
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a7e4fa50f67b7b8553497ee957384f46
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: SelectionManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSafeDoor
+  - hash:
+      serializedVersion: 2
+      Hash: fc60161d132df2f40adf3dfb2a9a522d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowMouseDemo
+  - hash:
+      serializedVersion: 2
+      Hash: c3655dd9e2d8ea964ee173a93da9d0b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: dbb79cbce6f3a84e00100b498c45ef4b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRShotgunMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: 023ca9e5e6d5da226cf30e572c117d3c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: RenderModelChangerUI
+  - hash:
+      serializedVersion: 2
+      Hash: 09638efb30e8eb4d3922a4c57eb4f6e1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InteractableHoverEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 1b22002bdfadde197b6bd16d0a4164af
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSafeDial
+  - hash:
+      serializedVersion: 2
+      Hash: b340914a1bee2581bd98cd9d2890d748
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Pose
+  - hash:
+      serializedVersion: 2
+      Hash: e652cec2469b5c51442a1da9bbe71ac4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ConvexBrokenSelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: 774aa6cd50ae14dfd14d6eceb8533e14
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabbableSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 61a75906772040c0be009b3057f41121
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrowLoader
+  - hash:
+      serializedVersion: 2
+      Hash: cd5acf6a714cef157dcaf5e31901b291
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ArrowTip
+  - hash:
+      serializedVersion: 2
+      Hash: 6519746f335bbc324f76b7941fd0e8cf
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDamageHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestOnCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadRightEvents
+  - hash:
+      serializedVersion: 2
+      Hash: c7a4074191724dd25090fd764ce1c8a6
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_ActivateActionSetOnLoad
+  - hash:
+      serializedVersion: 2
+      Hash: 1ba001e1051dbf18703ca59a4cbf3476
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearDrive
+  - hash:
+      serializedVersion: 2
+      Hash: 788b0f4ce3208c05bc58845c6fcb6383
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoUIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 2bdbdfd29ae156a056b41a2a9bfe43ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoBackpack
+  - hash:
+      serializedVersion: 2
+      Hash: c227302df1e61668a58c2b5b79e92f1f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ArrowObject
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HideOnHandFocusLost
+  - hash:
+      serializedVersion: 2
+      Hash: eaf525a1edc895b7451a2c10757fc2e2
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRTagSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CubeWall
+  - hash:
+      serializedVersion: 2
+      Hash: 4f60ff347d4efee4ef8cc7f627735018
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark02
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LeftFootForRec
+  - hash:
+      serializedVersion: 2
+      Hash: 6859de4134c664eb9b590b39347e3167
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RedGreenContr
+  - hash:
+      serializedVersion: 2
+      Hash: dced6dc8fdd20a7b99a0521967f7c277
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: JointBody
+  - hash:
+      serializedVersion: 2
+      Hash: d68e9573a3dc305c7d2ebb4dd456833d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoCodeGrabbing
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_CameraFlip
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: ffdf3afcee973b7df2dc0690f158cf4d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: MeshTip
+  - hash:
+      serializedVersion: 2
+      Hash: 0adb4693d196756942b7885d0354577b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCollisionMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 4d16cfbaa8e821a2b370e80844a0e9bc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TextMeshSpawner
+  - hash:
+      serializedVersion: 2
+      Hash: e641cc5c7e361fdf4ecb4aac1adbf8de
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRNockingPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 20ae459a0072025a05fde31a89b54ba3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeff
+  - hash:
+      serializedVersion: 2
+      Hash: 91107e2f7605a3dc843467c2c3fe0671
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PassCatchManager
+  - hash:
+      serializedVersion: 2
+      Hash: d287c185a119d79ff1e89b8a6a2ad8aa
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Frustum
+  - hash:
+      serializedVersion: 2
+      Hash: 4261844dcfe333656ff9db7c6a4fe767
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RuleAttr
+  - hash:
+      serializedVersion: 2
+      Hash: 374d19e45ccdd28e29421258302cee6b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordContr
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c265978fccc8c1f8b6b56ad385d9b94b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionCheck
+  - hash:
+      serializedVersion: 2
+      Hash: dcd4abd5250acc71a0a662b455a0e586
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiBoolValueChangedEvent
+  - hash:
+      serializedVersion: 2
+      Hash: 58e68364412c67eae2bdb4954be2dcc2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Readme
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd23fd0d7261ffb604834d9784e2277
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRButton
+  - hash:
+      serializedVersion: 2
+      Hash: 8f4cf6924a6be92d2e925bd4f39de769
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Player
+  - hash:
+      serializedVersion: 2
+      Hash: ef01145d01005ab9549541e17c69be56
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skybox
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0cef0a58e552a4f5c46bac1f601a47aa
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DetectObj
+  - hash:
+      serializedVersion: 2
+      Hash: 31debb89072a7833461642dfe4e69e4c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: ShuffleDemos
+  - hash:
+      serializedVersion: 2
+      Hash: 84a3e4e0d25666c0e73413aed3a9552e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Arrow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportURPHelper
+  - hash:
+      serializedVersion: 2
+      Hash: 3af13b4bef4e5af61322c4e71048d6c8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: IndicatorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 7e433c1f27c60906babb5e3c7e725c93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneBaseManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GoalDect
+  - hash:
+      serializedVersion: 2
+      Hash: e641cc5c7e361fdf4ecb4aac1adbf8de
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRShoulderSocket
+  - hash:
+      serializedVersion: 2
+      Hash: b9549bdcdfcbd1e07af194fef7f09a85
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: TargetMeasurement
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Duck.Http.dll
+    namespaceName: Duck.Http
+    className: Http
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRChamberedCasingFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Demo
+    className: BulletBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 2ab1f74090d7b74e29abbe7bdcefc656
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRSocketContainerGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 43f0e56eab162699bbb7d5ea1130d14f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRBolt
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: ScaledArrowDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExcelWrite
+  - hash:
+      serializedVersion: 2
+      Hash: 4886d7aafc3f950d61d2d223294391d6
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: DebugTools
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: CurvePathDemo
+  - hash:
+      serializedVersion: 2
+      Hash: d393286cd0644047362111c7590634ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: NeuronSourceManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: cubeSpwanPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 6663435805926faf16934aed992cd26b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark03
+  - hash:
+      serializedVersion: 2
+      Hash: ed9072220e4b2795dbeb47f1ba28bc31
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRPhysicsBow
+  - hash:
+      serializedVersion: 2
+      Hash: ff9d05d86a55cc66d24a289c96d3e152
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: SelectionIndicator
+  - hash:
+      serializedVersion: 2
+      Hash: f438224c020e1907f183d8ad9b7cbd72
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRBowBase
+  - hash:
+      serializedVersion: 2
+      Hash: f50bed05b51799975d0998e5e8e2a9d7
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRCenterOfMassOverride
+  - hash:
+      serializedVersion: 2
+      Hash: 943f4a24fce75571a008eaa33569bd2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: OutlineBodyRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: 90e8cfdc4560fbf5559ce9c2161ed4d1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandMirrorSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d8280d4a1974006b8a91f87b052dc80d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ProceduralHats
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAmmoReleaseAction
+  - hash:
+      serializedVersion: 2
+      Hash: 24c723d753304a23cbebbd496d1f2d15
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Menu
+  - hash:
+      serializedVersion: 2
+      Hash: aa1ef1eff96fcb248deb7cddfd865946
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRHandColliderController
+  - hash:
+      serializedVersion: 2
+      Hash: e652cec2469b5c51442a1da9bbe71ac4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: BrokenSelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns.PartFinders
+    className: HVRMagazineFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 869022c492a6b4ac678f3dc898471f4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotationComparer
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: eb674066b5a0a41455433c7e93df1186
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRThrowingCenterOfMass
+  - hash:
+      serializedVersion: 2
+      Hash: 18628813c7aad3d4328ffde18c4d9d59
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeffController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MarkObject
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a0b638e1ef9932835f8de50c14a0b430
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: RollBallControls
+  - hash:
+      serializedVersion: 2
+      Hash: 82a41b8d5641e45bea52cd2062005ddc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: SolidMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 3413300c1211be83abecb4c12dffeca5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: DebugVR
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: PointPathDemo
+  - hash:
+      serializedVersion: 2
+      Hash: b57359776be41d06875f951db3b7ba34
+    assemblyName: SteamVR.dll
+    namespaceName: 
+    className: URPMaterialSwitcher
+  - hash:
+      serializedVersion: 2
+      Hash: 2658488b550b51097fe1e8e9f9a19f87
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_GazeTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SleepOnAwake
+  - hash:
+      serializedVersion: 2
+      Hash: 8db9cb9fe5f64bad8e622b56949408d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: ShowCaseDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 46239aa1f298afecf2dd946b835febd2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: OutlineTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRRootFinder
+  - hash:
+      serializedVersion: 2
+      Hash: 3c862d71140d6d6bb13ec33655ff7e59
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRStabberSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 98d138569dc38b8bf8400ea20da0e6f3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.Extras
+    className: SteamVR_LaserPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 0bffe95fa981ed10d59e5ebd6bfd2218
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRTeleportOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 948fc81d10a0f1ca22569b45a62d3d37
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: HandCollider
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: c0a75e8ddc744b3c90c5165fb43b1eeb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoHeavyDoor
+  - hash:
+      serializedVersion: 2
+      Hash: dbb79cbce6f3a84e00100b498c45ef4b
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRAmmo
+  - hash:
+      serializedVersion: 2
+      Hash: 7085d0450194e34480b9cb069bbdca16
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components.Creators
+    className: HVRPhysicsLeverCreator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeadEye
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: TrackTwoObjectsDemo
+  - hash:
+      serializedVersion: 2
+      Hash: abe4b6fd9c0bc263113d964f65fc3e8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreCube
+  - hash:
+      serializedVersion: 2
+      Hash: bd3f0ca738703903e759f77536ed74fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_FrameRateCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 6be5f6901bab02c71190787ea138539a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRRecoil
+  - hash:
+      serializedVersion: 2
+      Hash: 41ad0a13f7599fe925b32d69332d72e8
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Vector2
+  - hash:
+      serializedVersion: 2
+      Hash: b7c490afe74bba1a11138aed23c67e42
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay
+    className: Recording
+  - hash:
+      serializedVersion: 2
+      Hash: 6c16f213a1e57d07e0db35ab60bb50c5
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandPose
+  - hash:
+      serializedVersion: 2
+      Hash: d9e2e7d3da5a41f1c342903cc03a4e31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: PathPercentageDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 182bb5fdce4da752a95915047b435094
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: FsmTemplate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorIK
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerAnimatorMove
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerApplicationEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerCollisionStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControllerColliderHit
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerControls
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFixedUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: a17f3cdaffefa864a0d800602bcf922d
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerFSM
+  - hash:
+      serializedVersion: 2
+      Hash: 370593f134e2685b00d73cbf4017d0fe
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGlobals
+  - hash:
+      serializedVersion: 2
+      Hash: 4002df09187c2b317d58e82d9e4795b2
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerJointBreak2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerLateUpdate
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerMouseEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 65fb86d2f74f034d658ef1bd1f20a8b1
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerOnGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerParticleCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6a7f714a9880f023bdef89ee6f27e6
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerPrefs
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerEnter2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerExit2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay
+  - hash:
+      serializedVersion: 2
+      Hash: 9b8a30b0d2b39397e408f051bc054940
+    assemblyName: PlayMaker.dll
+    namespaceName: 
+    className: PlayMakerTriggerStay2D
+  - hash:
+      serializedVersion: 2
+      Hash: 43693722f9850ef9f3bc82bc22aaf026
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRGhostHand
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 6f194e0261aecd5aab82aab33643d4b3
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: BalloonColliders
+  - hash:
+      serializedVersion: 2
+      Hash: 2ab1f74090d7b74e29abbe7bdcefc656
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRShoulderGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 2c2e987d3a8fc71fd488d0b9b28825db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: OutlineDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDestroyTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 64c3090fc5e36a5805101e8305ab5182
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CountSpeed
+  - hash:
+      serializedVersion: 2
+      Hash: 5f8f33c0d9c30522bb51069b7668837e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetPosTest
+  - hash:
+      serializedVersion: 2
+      Hash: 2b2408371788cd4e2bc2313edfaecb9d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCameraRig
+  - hash:
+      serializedVersion: 2
+      Hash: 35192af4bda4142f0dc2ca7f06090c8e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: WheelDust
+  - hash:
+      serializedVersion: 2
+      Hash: 7a3656ec467f68bec219368ae89d104d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: MadeOfShapesSelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus.Demos
+    className: SphereHighlightEventExample
+  - hash:
+      serializedVersion: 2
+      Hash: 2fa405fd598b8a89245b3c78c55e9904
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: FireSource
+  - hash:
+      serializedVersion: 2
+      Hash: 78a245ee6b009463ad69cc4a3af9f875
+    assemblyName: HurricaneVR.Editor.dll
+    namespaceName: HurricaneVR.Editor
+    className: HVREditorPreferences
+  - hash:
+      serializedVersion: 2
+      Hash: 9e9f97e029dbf3ae34e4f8f1aabde748
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: trackCam
+  - hash:
+      serializedVersion: 2
+      Hash: dcc608e96ec2ac8ad8de1fc54d7d0b7a
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: SquishyToy
+  - hash:
+      serializedVersion: 2
+      Hash: 7aae15d4e59af0c19ecf88a6e70a7f1d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRigidbodyLocker
+  - hash:
+      serializedVersion: 2
+      Hash: bd5a3ad9e72490a9853dc269a541c9b0
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRGrabbableSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 9cdd5757306ab9183dcec420028a84cf
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_PlayArea
+  - hash:
+      serializedVersion: 2
+      Hash: 1cbfb52ee0b6672a4187b83faf128e89
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRInputSettings
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexJitter
+  - hash:
+      serializedVersion: 2
+      Hash: f52b91ab611ec2db59d0ba7d71d1af19
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: PointToPointArrowPath
+  - hash:
+      serializedVersion: 2
+      Hash: b51614b2839183c26c9be312803b7a38
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Shared
+    className: HVRFingerSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4baa50e4d099a6e1c5ca29ca6d9720db
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRControllerOffset
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 83c0ed96c9be766d7245c3097189c239
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Grabbers
+    className: HVRForceGrabber
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: a7543c574bcd0b9a752059737716ce26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TranningTypePanel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 297d7a050bd705232c6dbad0a7668cda
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: InteractableDebug
+  - hash:
+      serializedVersion: 2
+      Hash: 4c128527affe5849820ed3dec75f6027
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: RenderModel
+  - hash:
+      serializedVersion: 2
+      Hash: 442d2e6df84245a681f510c88bf0c8eb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPosableGrabPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 4e516d6d64d44446989426b8f725c6f8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_TextEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: ab7742f1ef1600f7d0ddb89989cb8450
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: MultipleMaterialsDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRThumbTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 125c22306c1265c4c850cb8257697f8c
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRCanvasFade
+  - hash:
+      serializedVersion: 2
+      Hash: c6bfb6b96dfa8d98e8ee48353bcacfe0
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearBlendshape
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRMenuButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 3502b74a92db93ec01819dd583cb680a
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRTagSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: 74bf576b642b8357b86a689e2746abe1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: SelectedObjectOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 349ae0a7883f82f6783ec4742f7b81da
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRControllerEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 6aba709bf7d75fe8c630a0de34d5eab2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NeuronAnimatorInstance
+  - hash:
+      serializedVersion: 2
+      Hash: fa5d069645c5f38a362924187ca1cb5d
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: Planting
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: e0f1a8d4b95e2893e46f658b3b796847
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Skeleton_Pose
+  - hash:
+      serializedVersion: 2
+      Hash: 81e982f2c5b68cf6f36e9b6e995514c0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ToggleGameObjectEnable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: SkeletonUIOptions
+  - hash:
+      serializedVersion: 2
+      Hash: 8b00c7cd47facefae7e8301cd59fd46b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: SliderHandle
+  - hash:
+      serializedVersion: 2
+      Hash: 768e0b2401d6f4fdefbb3f86c12c662e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: HVRComments
+  - hash:
+      serializedVersion: 2
+      Hash: 3419fef08ea57a55bf1d496891b3b7e3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRSlide
+  - hash:
+      serializedVersion: 2
+      Hash: 6af03e1e3b3ad7381b695c209f744e6c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: BuggyBuddy
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core
+    className: HVRGrabPoints
+  - hash:
+      serializedVersion: 2
+      Hash: 489eba1e3967997fd476a5f57d0ee5f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: CustomMesh
+  - hash:
+      serializedVersion: 2
+      Hash: a1ca1237bad0f30ea5ba8f4060929114
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TMP_TextSelector_B
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 4b731ede32a3693980c0cafb306a8d83
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: ShapeDemo
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators.Cogobyte.Demo.ProceduralIndicators
+    className: BrokenArrowDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 61c470a6e01837c569cfa2290dc7b4ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraRay
+  - hash:
+      serializedVersion: 2
+      Hash: 5fb9d8769ba2a7332fd30af40b4e66b1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ItemPackage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TableTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: a4b9c7983bc31c585a8d9afe83d3e247
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRTrackedController
+  - hash:
+      serializedVersion: 2
+      Hash: bd0f70259e5920d5cc171d0499babc9c
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: TeleportPoint
+  - hash:
+      serializedVersion: 2
+      Hash: e2ef2f51b76fbf5d12f65598a1db09ff
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoGlassRotate
+  - hash:
+      serializedVersion: 2
+      Hash: 29d518781ccba8971abc835d8d13df67
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ButtonExample
+  - hash:
+      serializedVersion: 2
+      Hash: 7b7af8d4c569e55f3aaa5aaa1033b8fd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HutongGames.PlayMaker
+    className: PlayMakerUiClickEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ae9e6e57eab49854221ab15bd1f44eea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: MeshPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: 13c40e71b4af669ad3f56e281300e612
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: LinearAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Assets.Game.Script
+    className: tesst
+  - hash:
+      serializedVersion: 2
+      Hash: 850850cddcb6c9036fb6389ac81fe557
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: spawnFootBall
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.XR.OpenVR.dll
+    namespaceName: Unity.XR.OpenVR
+    className: OpenVRLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 8d4c2b732049c769c0e3376e1079c0e8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: UpDirectionDemo
+  - hash:
+      serializedVersion: 2
+      Hash: ee4288405c0355c625f87edfd800c81e
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: SFXPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Player
+    className: HVRInvalidTeleport
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: JoeJeffGestures
+  - hash:
+      serializedVersion: 2
+      Hash: a44f3dec2e34c27725603425bd414d28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FootPointPartDetect
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRGraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackpadButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WearShose
+  - hash:
+      serializedVersion: 2
+      Hash: 9fc3f19334d5c8086a3c31c922c8a827
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: SoundDeparent
+  - hash:
+      serializedVersion: 2
+      Hash: f53353aadf7a88ea54da9f1e48a6d181
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_LoadLevel
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRDontDestroy
+  - hash:
+      serializedVersion: 2
+      Hash: 2443caa27902449f1eb355f2bd6c7d3e
+    assemblyName: Unity.XR.OpenVR.dll
+    namespaceName: Unity.XR.OpenVR
+    className: OpenVRSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 5de2c7e7bc533a121e4cfee1483c7ded
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: SelectionIndicatorPath
+  - hash:
+      serializedVersion: 2
+      Hash: 70a53b20e4f7504ccd7005a62542ef4d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRotationSFX
+  - hash:
+      serializedVersion: 2
+      Hash: 9b7d0c23dcbc0bf5194980887eddc1b1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecordContrUI
+  - hash:
+      serializedVersion: 2
+      Hash: 98b21375213c07b5a17d6d99936d45db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: NeuronTransformsInstance
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: draw_orbit
+  - hash:
+      serializedVersion: 2
+      Hash: 581f3710e1186967c9213e3923915a29
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: BuggyController
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRJoystickTouchEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 893dbdbfe611d62e230a686ea89f1efd
+    assemblyName: UnityEngine.XR.LegacyInputHelpers.dll
+    namespaceName: UnityEngine.XR.LegacyInputHelpers
+    className: SwingArmModel
+  - hash:
+      serializedVersion: 2
+      Hash: cecc1f0a25c0b760b25eda8aa915709f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRigidBodyOverrides
+  - hash:
+      serializedVersion: 2
+      Hash: 683b24af184cbfdb512c22441a86cf4d
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.UI
+    className: HVRUIPointer
+  - hash:
+      serializedVersion: 2
+      Hash: 8231db8edd1c1cae11ffcc6106fd8249
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRPhysicsPoser
+  - hash:
+      serializedVersion: 2
+      Hash: 6a97a8b6d22c69bb523a499cb4fffd59
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Utils
+    className: AxisLines
+  - hash:
+      serializedVersion: 2
+      Hash: 7751e00712226055b78605175ebbd185
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons
+    className: HVRRayCastGun
+  - hash:
+      serializedVersion: 2
+      Hash: d3ce44bcd4ca2ea467db167816869b52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HeadSceneManager
+  - hash:
+      serializedVersion: 2
+      Hash: fbb3be0e717af3d2d22fb4948e0a1c31
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 75cd39a1f6026e63f483b86039e2c4cb
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Camera
+  - hash:
+      serializedVersion: 2
+      Hash: dcfe23497b8deb29c06de6a16a9e334f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRRingHighlight
+  - hash:
+      serializedVersion: 2
+      Hash: b599650053babae114cacabf67e5fdac
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: ArcheryTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 37c893bbf0aec13e2dd0f1d88b6fff9b
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: DestroyOnTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: fb4574ff76112337538455d4cc720e5d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoSocketFilter
+  - hash:
+      serializedVersion: 2
+      Hash: fe1fdeffc2067077b2f1a90b210c2532
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DropdownSample
+  - hash:
+      serializedVersion: 2
+      Hash: c181dd624e32275eab31f2a75aab849e
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_SkeletonCustom
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRSecondaryTouchButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 5a11c061f15dce8cfa4a12eb9ce55c18
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoPoseSqueeze
+  - hash:
+      serializedVersion: 2
+      Hash: 9f6e1187058433847d295e1b43da222b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShootMananger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro
+    className: TMP_PhoneNumberValidator
+  - hash:
+      serializedVersion: 2
+      Hash: 1875635f70b679d36f0dc67b4b9618c1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem
+    className: Teleport
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexColorCycler
+  - hash:
+      serializedVersion: 2
+      Hash: 884c4353638cbc1387a4c5b1d17609fb
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Bow
+    className: HVRArrow
+  - hash:
+      serializedVersion: 2
+      Hash: 87dfda12c6dd4f26b54a1faf9ae65ddd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WelComePage
+  - hash:
+      serializedVersion: 2
+      Hash: 6d64b11ffc13ee03fb6c45eafac95b72
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRTriggerAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 04ce23239df84aabf49df7b225b4badd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoDummyArm
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: TeleType
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR.InteractionSystem.Sample
+    className: ControllerHintsExample
+  - hash:
+      serializedVersion: 2
+      Hash: 98b181b8674ee7ff1d1936e7a3df42b1
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRGrabbableSocketExcluder
+  - hash:
+      serializedVersion: 2
+      Hash: a9776e2821bb950ed69d8cdf7779042d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HighlightPlus
+    className: HighlightSeeThroughOccluder
+  - hash:
+      serializedVersion: 2
+      Hash: a32a0f7d9f0779b4103ec94fa48c47bd
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Boolean
+  - hash:
+      serializedVersion: 2
+      Hash: 0ee3eacd7e7abe5ecabb1ae158de3f88
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: PointListDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EliCDavis.RecordAndPlay.Playback
+    className: PlaybackBehavior
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Stabbing
+    className: HVRNotStabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 26ff66c8e06a6f4c2ecdf34a30ece76f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RecorderForAniAndVR
+  - hash:
+      serializedVersion: 2
+      Hash: e63944317d2f5958e31963668bb29158
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: VertexZoom
+  - hash:
+      serializedVersion: 2
+      Hash: b1474e74c5b21558a42a0a139309ed37
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Weapons.Guns
+    className: HVRGrabMagazine
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRTrackPadDownEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 722264e3995fb1f58f606a6dac811533
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Neuron
+    className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: 04b5b1256de012e30637d6024ae946a9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.SmartProceduralIndicators
+    className: DashDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BaffleDect
+  - hash:
+      serializedVersion: 2
+      Hash: 2d94f0265646866babbcf21c106b52ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralLibrary
+    className: WingedArrowMesh
+  - hash:
+      serializedVersion: 2
+      Hash: fc1344919d11dd303ba8018ba64b127f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: Spath
+  - hash:
+      serializedVersion: 2
+      Hash: 9df3f69913672dfbc6dae7a8829caae3
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput.InputEvents
+    className: HVRSecondaryButtonEvents
+  - hash:
+      serializedVersion: 2
+      Hash: 8a4e800135e4141b4ce7a77efa4d4231
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDrawer
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: e641cc5c7e361fdf4ecb4aac1adbf8de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: HurricaneVR.TechDemo.Scripts
+    className: DemoPassthroughSocket
+  - hash:
+      serializedVersion: 2
+      Hash: 3537d0a540ff55b651d238ca9f0db3f9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.Demo.ProceduralIndicators
+    className: TraveledPath
+  - hash:
+      serializedVersion: 2
+      Hash: fa75cb59075236c38dcdbdeaba39bece
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 7ec9d01eb12b57555c48f905fa1097f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WordWrite
+  - hash:
+      serializedVersion: 2
+      Hash: 92390f23c6dc1f29cdfe8684894071b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetFootUp
+  - hash:
+      serializedVersion: 2
+      Hash: 0c0ed1eef197d44232f4b026713c579d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BodyPointInstance
+  - hash:
+      serializedVersion: 2
+      Hash: b9025d8de9fa2649a0d4f8d0891d6875
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsDial
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc2f9df3d1dba87b16e91567fc82bbd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.SmartProceduralIndicators
+    className: BezierArrowPath
+  - hash:
+      serializedVersion: 2
+      Hash: 47930f3b40e24ef5b3b5e3d9ada7097a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TMPro.Examples
+    className: Benchmark01
+  - hash:
+      serializedVersion: 2
+      Hash: 77879c305f6ec95262421ca1b7e55050
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.ControllerInput
+    className: HVRXRInputController
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 984876fe116056f507d30fa7101fd244
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.Sockets
+    className: HVRSocketable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Core.HandPoser
+    className: HVRHandMirrorer
+  - hash:
+      serializedVersion: 2
+      Hash: 65c93de46df92f5c9083b6b6b89c07a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Cogobyte.ProceduralIndicators
+    className: ArrowPath
+  - hash:
+      serializedVersion: 2
+      Hash: 3800f5e3156a1e54f5c990c4e514eda1
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Ears
+  - hash:
+      serializedVersion: 2
+      Hash: 810d61f47a280d8179627aba68348d03
+    assemblyName: SteamVR.dll
+    namespaceName: Valve.VR
+    className: SteamVR_Behaviour_Single
+  - hash:
+      serializedVersion: 2
+      Hash: d7c0c0437d10c7c9fa9735814b326219
+    assemblyName: HurricaneVR.Framework.dll
+    namespaceName: HurricaneVR.Framework.Components
+    className: HVRPhysicsLever
+  platform: 19
+  scenePathNames:
+  - Assets/Game/Scene/StartUI.unity
+  - Assets/Game/Scene/Main/HTCScene/FootBallCrossingForHtc.unity
+  - Assets/Game/Scene/Main/HTCScene/FootBallHeadForHtc.unity
+  - Assets/Game/Scene/Main/HTCScene/FootBallPassCatchingForHtc.unity
+  - Assets/Game/Scene/Main/HTCScene/FootBallShootingForHtc.unity
+  playerPath: C:/Users/TY/Desktop/Football/0331/Football.exe
