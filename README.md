@@ -97,7 +97,7 @@ cd REVERIE-Rendering
 ```bash
 conda activate REVERIE
 ```
-### Pre-trained Model Weights. 
+### Pre-trained model weights 
 Please follow the [official document](https://mmdetection.readthedocs.io/en/latest/get_started.html) to install mmdection. 
 Then, please download the pre-trained model weights [here](https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_tiny_8xb32-300e_coco/rtmdet_tiny_8xb32-300e_coco_20220902_112414-78e30dcc.pth).
 You can test the RTMDet-Ins:
@@ -168,7 +168,7 @@ cd REVERIE-Agent
 ```bash
 conda activate REVERIE
 ```
-### Build Training Environment
+### Build training environment
 1. Install [Unity ML-Agents Toolkit](https://unity-technologies.github.io/ml-agents/) following the this [page](https://unity-technologies.github.io/ml-agents/Installation/).
 2. Click the environment in REVERIE-Environment Module and set:
 ```bash
@@ -212,8 +212,8 @@ bilateral acromion, perimeter of the head, bilateral humeral condyles (medial an
 <img src="Demo/s_motion.gif" >
 </div>
 
-# Demo of REVERIE Sports
-Here is the demo video of REVERIE system.
+# Demo of REVERIE sports
+Here is the demo video of the REVERIE system.
 
 <div style="display: flex; justify-content: space-between; width: 100%;">
   <img src="Demo/REVERIE-tt.gif" style="max-width: 48%; height: auto;">
