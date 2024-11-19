@@ -222,8 +222,16 @@ bilateral acromion, perimeter of the head, bilateral humeral condyles (medial an
 Here are the demo videos of the REVERIE system.
 
 [REVERIE Table Tennis](Demo/Tabletennis.mp4) `Demo/Tabletennis.mp4`
-
+<video controls width="600">
+  <source src="Demo/Tabletennis.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 [REVERIE Soccer](Demo/Soccer.mp4) `Demo/Soccer.mp4`
+<video controls width="600">
+  <source src="DDemo/Soccer.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 <div style="text-align: center;">
 <img src="Demo/REVERIE-tt.gif" >
