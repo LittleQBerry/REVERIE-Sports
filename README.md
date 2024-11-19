@@ -8,7 +8,7 @@ REVERIE is a deep reinforcement learning-ensembled VR system to provide personal
 * Oculus Quest 2 (Oculus Quest 2, Meta, USA)
 * Table tennis bracket 
 * 3D printed soccer bracket
-* Heart rate monitor (Polar Verity Sense, Polar Electro Oy, Kempele, Finland)
+* Wireless heart rate telemetry sensor (Polar Verity Sense, Polar Electro Oy, Kempele, Finland)
 * 3D accelerometer (Actigraph wGT3x-BT, Actigraph, Pensacola, USA)
 <div style="text-align: center;">
 <img src="hardware/figure/hardware.png" >
