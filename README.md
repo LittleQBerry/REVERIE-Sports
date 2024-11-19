@@ -224,7 +224,11 @@ Here are the demo videos of the REVERIE system.
 [REVERIE Table Tennis](Demo/Tabletennis.mp4) `Demo/Tabletennis.mp4`
 
 [REVERIE Soccer](Demo/Soccer.mp4) `Demo/Soccer.mp4`
-<div style="display: flex; justify-content: space-between; width: 100%;">
-  <img src="Demo/REVERIE-tt.gif" style="max-width: 48%; height: auto;">
-  <img src="Demo/REVERIE-s.gif" style="max-width: 48%; height: auto;">
+
+<div style="text-align: center;">
+<img src="Demo/REVERIE-tt.gif" >
+</div>
+
+<div style="text-align: center;">
+<img src="Demo/REVERIE-s.gif" >
 </div>
