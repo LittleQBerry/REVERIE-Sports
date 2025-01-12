@@ -202,8 +202,8 @@ Player --> Run In Background
 python run_RC.py
 ```
 
-# SPSS 
-1. Input the `SPSS syntax\spss code.sps` into IBM SPSS Statistics ((Version 25.0 or above).
+## SPSS 
+1. Input the `SPSS syntax\spss code.sps` into [IBM SPSS Statistics](https://www.ibm.com/cn-zh/products/spss-statistics) (Version 25.0 or above).
 2. Click `Run` button to run this code. 
 
 # Motion capture
