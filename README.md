@@ -202,6 +202,10 @@ Player --> Run In Background
 python run_RC.py
 ```
 
+# SPSS 
+1. Input the `SPSS syntax\spss code.sps` into IBM SPSS Statistics ((Version 25.0 or above).
+2. Click `Run` button to run this code. 
+
 # Motion capture
 1. Participants wore black tight-fitting suits, and 40 infrared reflective markers (diameter: 14mm).
 ```bash
