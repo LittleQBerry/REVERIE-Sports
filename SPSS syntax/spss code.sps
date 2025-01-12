@@ -1,0 +1,18 @@
+﻿* Encoding: UTF-8.
+
+DATASET ACTIVATE dataset.
+T-TEST PAIRS=fat mass_1 WITH fat mass_2 (PAIRED)
+  /ES DISPLAY(TRUE) STANDARDIZER(SD)
+  /CRITERIA=CI(.9500)
+  /MISSING=ANALYSIS.
+
+
+
+UNIANOVA fat mass_change BY group WITH fat mass_1
+  /METHOD=SSTYPE(3)
+  /INTERCEPT=INCLUDE
+  /EMMEANS=TABLES(group) WITH(fat mass_1=MEAN) COMPARE ADJ(LSD)
+  /CRITERIA=ALPHA(0.05)
+  /DESIGN=fat mass_1 group.
+
+
